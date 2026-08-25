@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key id="label" for="node" attr.name="label" attr.type="string"/>
+<key id="type" for="node" attr.name="type" attr.type="string"/>
+<key id="layer" for="node" attr.name="layer" attr.type="string"/>
+<key id="position" for="node" attr.name="position" attr.type="string"/>
+<key id="relation" for="edge" attr.name="relation" attr.type="string"/>
+<graph id="AI_Mining_KG" edgedefault="directed">
+<node id="tech:machine_learning">
+<data key="label">Machine learning</data>
+<data key="type">AI/model family</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:deep_learning">
+<data key="label">Deep learning</data>
+<data key="type">AI/model family</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:supervised_learning">
+<data key="label">Supervised learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:semi_supervised_learning">
+<data key="label">Semi-supervised learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:self_supervised_learning">
+<data key="label">Self-supervised learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:unsupervised_learning">
+<data key="label">Unsupervised learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:transfer_learning">
+<data key="label">Transfer learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:active_learning">
+<data key="label">Active learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:few_shot_learning">
+<data key="label">Few-shot learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:ensemble_learning">
+<data key="label">Ensemble learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:federated_learning">
+<data key="label">Federated learning</data>
+<data key="type">AI/paradigm</data>
+<data key="layer">model</data>
+<data key="position">技术层/learning paradigm</data>
+</node>
+<node id="tech:random_forest">
+<data key="label">Random Forest</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:decision_tree">
+<data key="label">Decision Tree</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:gradient_boosting">
+<data key="label">Gradient Boosting</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:xgboost">
+<data key="label">XGBoost</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:lightgbm">
+<data key="label">LightGBM</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:catboost">
+<data key="label">CatBoost</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:svm">
+<data key="label">Support Vector Machine</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:knn">
+<data key="label">k-Nearest Neighbors</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:logistic_regression">
+<data key="label">Logistic Regression</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:naive_bayes">
+<data key="label">Naive Bayes</data>
+<data key="type">AI/classical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:bayesian_network">
+<data key="label">Bayesian Network</data>
+<data key="type">AI/probabilistic model</data>
+<data key="layer">model</data>
+<data key="position">技术层/uncertainty</data>
+</node>
+<node id="tech:gaussian_process">
+<data key="label">Gaussian Process</data>
+<data key="type">AI/probabilistic model</data>
+<data key="layer">model</data>
+<data key="position">技术层/uncertainty</data>
+</node>
+<node id="tech:markov_random_field">
+<data key="label">Markov Random Field</data>
+<data key="type">AI/probabilistic model</data>
+<data key="layer">model</data>
+<data key="position">技术层/spatial model</data>
+</node>
+<node id="tech:mlp">
+<data key="label">Multilayer Perceptron / ANN</data>
+<data key="type">AI/neural model</data>
+<data key="layer">model</data>
+<data key="position">技术层/modeling</data>
+</node>
+<node id="tech:cnn">
+<data key="label">Convolutional Neural Network</data>
+<data key="type">AI/deep model</data>
+<data key="layer">model</data>
+<data key="position">技术层/spatial/deep learning</data>
+</node>
+<node id="tech:rnn_lstm_gru">
+<data key="label">RNN / LSTM / GRU</data>
+<data key="type">AI/deep model</data>
+<data key="layer">model</data>
+<data key="position">技术层/sequence learning</data>
+</node>
+<node id="tech:autoencoder">
+<data key="label">Autoencoder</data>
+<data key="type">AI/deep model</data>
+<data key="layer">model</data>
+<data key="position">技术层/representation learning</data>
+</node>
+<node id="tech:vae">
+<data key="label">Variational Autoencoder</data>
+<data key="type">AI/generative model</data>
+<data key="layer">model</data>
+<data key="position">技术层/generative learning</data>
+</node>
+<node id="tech:gan">
+<data key="label">Generative Adversarial Network</data>
+<data key="type">AI/generative model</data>
+<data key="layer">model</data>
+<data key="position">技术层/generative learning</data>
+</node>
+<node id="tech:diffusion_model">
+<data key="label">Diffusion Model</data>
+<data key="type">AI/generative model</data>
+<data key="layer">model</data>
+<data key="position">技术层/generative learning</data>
+</node>
+<node id="tech:transformer">
+<data key="label">Transformer</data>
+<data key="type">AI/foundation model</data>
+<data key="layer">model</data>
+<data key="position">技术层/foundation model</data>
+</node>
+<node id="tech:vision_transformer">
+<data key="label">Vision Transformer</data>
+<data key="type">AI/foundation model</data>
+<data key="layer">model</data>
+<data key="position">技术层/remote sensing</data>
+</node>
+<node id="tech:foundation_model">
+<data key="label">Geoscience / geospatial foundation model</data>
+<data key="type">AI/foundation model</data>
+<data key="layer">model</data>
+<data key="position">技术层/foundation model</data>
+</node>
+<node id="tech:llm">
+<data key="label">Large Language Model</data>
+<data key="type">AI/foundation model</data>
+<data key="layer">model</data>
+<data key="position">技术层/knowledge interface</data>
+</node>
+<node id="tech:rag">
+<data key="label">Retrieval-Augmented Generation</data>
+<data key="type">AI/system pattern</data>
+<data key="layer">model</data>
+<data key="position">技术层/knowledge interface</data>
+</node>
+<node id="tech:knowledge_graph">
+<data key="label">Knowledge Graph</data>
+<data key="type">AI/knowledge representation</data>
+<data key="layer">model</data>
+<data key="position">技术层/knowledge layer</data>
+</node>
+<node id="tech:gnn">
+<data key="label">Graph Neural Network</data>
+<data key="type">AI/graph model</data>
+<data key="layer">model</data>
+<data key="position">技术层/spatial relations</data>
+</node>
+<node id="tech:gcn">
+<data key="label">Graph Convolutional Network</data>
+<data key="type">AI/graph model</data>
+<data key="layer">model</data>
+<data key="position">技术层/spatial relations</data>
+</node>
+<node id="tech:gat">
+<data key="label">Graph Attention Network</data>
+<data key="type">AI/graph model</data>
+<data key="layer">model</data>
+<data key="position">技术层/spatial relations</data>
+</node>
+<node id="tech:unet">
+<data key="label">U-Net</data>
+<data key="type">AI/deep model</data>
+<data key="layer">model</data>
+<data key="position">技术层/segmentation</data>
+</node>
+<node id="tech:resnet">
+<data key="label">ResNet</data>
+<data key="type">AI/deep model</data>
+<data key="layer">model</data>
+<data key="position">技术层/remote sensing</data>
+</node>
+<node id="tech:yolo">
+<data key="label">YOLO / object detection</data>
+<data key="type">AI/deep model</data>
+<data key="layer">model</data>
+<data key="position">技术层/object detection</data>
+</node>
+<node id="tech:som">
+<data key="label">Self-Organizing Map</data>
+<data key="type">AI/clustering</data>
+<data key="layer">model</data>
+<data key="position">技术层/feature discovery</data>
+</node>
+<node id="tech:kmeans">
+<data key="label">k-means</data>
+<data key="type">AI/clustering</data>
+<data key="layer">model</data>
+<data key="position">技术层/feature discovery</data>
+</node>
+<node id="tech:dbscan">
+<data key="label">DBSCAN</data>
+<data key="type">AI/clustering</data>
+<data key="layer">model</data>
+<data key="position">技术层/feature discovery</data>
+</node>
+<node id="tech:isolation_forest">
+<data key="label">Isolation Forest</data>
+<data key="type">AI/anomaly detection</data>
+<data key="layer">model</data>
+<data key="position">技术层/anomaly detection</data>
+</node>
+<node id="tech:one_class_svm">
+<data key="label">One-Class SVM</data>
+<data key="type">AI/anomaly detection</data>
+<data key="layer">model</data>
+<data key="position">技术层/anomaly detection</data>
+</node>
+<node id="tech:lof">
+<data key="label">Local Outlier Factor</data>
+<data key="type">AI/anomaly detection</data>
+<data key="layer">model</data>
+<data key="position">技术层/anomaly detection</data>
+</node>
+<node id="tech:pca">
+<data key="label">Principal Component Analysis</data>
+<data key="type">feature engineering</data>
+<data key="layer">model</data>
+<data key="position">技术层/dimensionality reduction</data>
+</node>
+<node id="tech:ica">
+<data key="label">Independent Component Analysis</data>
+<data key="type">feature engineering</data>
+<data key="layer">model</data>
+<data key="position">技术层/dimensionality reduction</data>
+</node>
+<node id="tech:tsne">
+<data key="label">t-SNE</data>
+<data key="type">feature engineering</data>
+<data key="layer">feature</data>
+<data key="position">技术层/dimensionality reduction</data>
+</node>
+<node id="tech:umap">
+<data key="label">UMAP</data>
+<data key="type">feature engineering</data>
+<data key="layer">feature</data>
+<data key="position">技术层/dimensionality reduction</data>
+</node>
+<node id="tech:wavelet">
+<data key="label">Wavelet transform</data>
+<data key="type">feature engineering</data>
+<data key="layer">feature</data>
+<data key="position">技术层/spatial/spectral features</data>
+</node>
+<node id="tech:fractal">
+<data key="label">Fractal / multifractal analysis</data>
+<data key="type">geostatistical feature</data>
+<data key="layer">feature</data>
+<data key="position">技术层/anomaly/background separation</data>
+</node>
+<node id="tech:moran_i">
+<data key="label">Moran's I / spatial autocorrelation</data>
+<data key="type">geostatistical feature</data>
+<data key="layer">feature</data>
+<data key="position">技术层/spatial statistics</data>
+</node>
+<node id="tech:kriging">
+<data key="label">Kriging / co-kriging</data>
+<data key="type">geostatistics</data>
+<data key="layer">feature</data>
+<data key="position">技术层/interpolation</data>
+</node>
+<node id="tech:weights_of_evidence">
+<data key="label">Weights of Evidence</data>
+<data key="type">evidence integration</data>
+<data key="layer">model</data>
+<data key="position">技术层/MPM baseline</data>
+</node>
+<node id="tech:fuzzy_logic">
+<data key="label">Fuzzy logic</data>
+<data key="type">evidence integration</data>
+<data key="layer">model</data>
+<data key="position">技术层/MPM baseline</data>
+</node>
+<node id="tech:ahp">
+<data key="label">Analytic Hierarchy Process</data>
+<data key="type">expert weighting</data>
+<data key="layer">model</data>
+<data key="position">技术层/MPM baseline</data>
+</node>
+<node id="tech:evidential_belief">
+<data key="label">Evidential belief function</data>
+<data key="type">evidence integration</data>
+<data key="layer">model</data>
+<data key="position">技术层/MPM baseline</data>
+</node>
+<node id="tech:dempster_shafer">
+<data key="label">Dempster-Shafer theory</data>
+<data key="type">evidence integration</data>
+<data key="layer">model</data>
+<data key="position">技术层/uncertainty</data>
+</node>
+<node id="tech:maxent">
+<data key="label">Maximum Entropy</data>
+<data key="type">statistical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/presence-only modeling</data>
+</node>
+<node id="tech:logistic_weights">
+<data key="label">Logistic / linear weights</data>
+<data key="type">statistical model</data>
+<data key="layer">model</data>
+<data key="position">技术层/baseline</data>
+</node>
+<node id="tech:ga">
+<data key="label">Genetic Algorithm</data>
+<data key="type">optimization</data>
+<data key="layer">model</data>
+<data key="position">技术层/model tuning</data>
+</node>
+<node id="tech:pso">
+<data key="label">Particle Swarm Optimization</data>
+<data key="type">optimization</data>
+<data key="layer">model</data>
+<data key="position">技术层/model tuning</data>
+</node>
+<node id="tech:aco">
+<data key="label">Ant Colony Optimization</data>
+<data key="type">optimization</data>
+<data key="layer">model</data>
+<data key="position">技术层/model tuning</data>
+</node>
+<node id="tech:shap">
+<data key="label">SHAP</data>
+<data key="type">explainable AI</data>
+<data key="layer">decision</data>
+<data key="position">技术层/interpretability</data>
+</node>
+<node id="tech:lime">
+<data key="label">LIME</data>
+<data key="type">explainable AI</data>
+<data key="layer">decision</data>
+<data key="position">技术层/interpretability</data>
+</node>
+<node id="tech:permutation_importance">
+<data key="label">Permutation importance</data>
+<data key="type">explainable AI</data>
+<data key="layer">decision</data>
+<data key="position">技术层/interpretability</data>
+</node>
+<node id="tech:partial_dependence">
+<data key="label">Partial dependence / ICE</data>
+<data key="type">explainable AI</data>
+<data key="layer">decision</data>
+<data key="position">技术层/interpretability</data>
+</node>
+<node id="tech:attention">
+<data key="label">Attention mechanism</data>
+<data key="type">explainable/deep model</data>
+<data key="layer">decision</data>
+<data key="position">技术层/interpretability</data>
+</node>
+<node id="tech:bayesian_uncertainty">
+<data key="label">Bayesian uncertainty quantification</data>
+<data key="type">uncertainty</data>
+<data key="layer">decision</data>
+<data key="position">技术层/risk ranking</data>
+</node>
+<node id="tech:monte_carlo_dropout">
+<data key="label">Monte Carlo dropout</data>
+<data key="type">uncertainty</data>
+<data key="layer">decision</data>
+<data key="position">技术层/risk ranking</data>
+</node>
+<node id="tech:conformal_prediction">
+<data key="label">Conformal prediction</data>
+<data key="type">uncertainty</data>
+<data key="layer">decision</data>
+<data key="position">技术层/risk ranking</data>
+</node>
+<node id="tech:data_fusion">
+<data key="label">Multi-source data fusion</data>
+<data key="type">pipeline</data>
+<data key="layer">feature</data>
+<data key="position">技术层/data integration</data>
+</node>
+<node id="tech:gis_overlay">
+<data key="label">GIS overlay modeling</data>
+<data key="type">pipeline</data>
+<data key="layer">feature</data>
+<data key="position">技术层/data integration</data>
+</node>
+<node id="tech:feature_selection">
+<data key="label">Feature selection</data>
+<data key="type">pipeline</data>
+<data key="layer">feature</data>
+<data key="position">技术层/feature engineering</data>
+</node>
+<node id="tech:class_imbalance">
+<data key="label">Class imbalance handling</data>
+<data key="type">pipeline</data>
+<data key="layer">model</data>
+<data key="position">技术层/training design</data>
+</node>
+<node id="tech:negative_sampling">
+<data key="label">Negative sampling / PU learning</data>
+<data key="type">pipeline</data>
+<data key="layer">model</data>
+<data key="position">技术层/training design</data>
+</node>
+<node id="tech:spatial_cross_validation">
+<data key="label">Spatial cross-validation</data>
+<data key="type">evaluation</data>
+<data key="layer">decision</data>
+<data key="position">技术层/validation</data>
+</node>
+<node id="tech:roc_auc">
+<data key="label">ROC-AUC / PR-AUC</data>
+<data key="type">evaluation</data>
+<data key="layer">decision</data>
+<data key="position">技术层/metrics</data>
+</node>
+<node id="tech:prospectivity_map">
+<data key="label">Prospectivity / favorability map</data>
+<data key="type">output</data>
+<data key="layer">decision</data>
+<data key="position">技术层/decision product</data>
+</node>
+<node id="tech:target_ranking">
+<data key="label">Exploration target ranking</data>
+<data key="type">output</data>
+<data key="layer">decision</data>
+<data key="position">技术层/decision product</data>
+</node>
+<node id="tech:drilling_recommendation">
+<data key="label">Drilling recommendation</data>
+<data key="type">output</data>
+<data key="layer">decision</data>
+<data key="position">技术层/decision product</data>
+</node>
+<node id="task:mineral_prospectivity_mapping">
+<data key="label">Mineral prospectivity mapping</data>
+<data key="type">research task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="task:geochemical_anomaly_detection">
+<data key="label">Geochemical anomaly detection</data>
+<data key="type">research task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="task:remote_sensing_mineral_mapping">
+<data key="label">Remote sensing mineral/alteration mapping</data>
+<data key="type">research task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="task:hyperspectral_lithology_mapping">
+<data key="label">Hyperspectral/lithology mapping</data>
+<data key="type">research task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="task:geophysical_inversion_interpretation">
+<data key="label">Geophysical inversion and interpretation</data>
+<data key="type">research task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="task:drill_core_logging">
+<data key="label">Drill core logging and assay prediction</data>
+<data key="type">research task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="task:ore_deposit_classification">
+<data key="label">Ore deposit classification</data>
+<data key="type">research task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="task:knowledge_management">
+<data key="label">Exploration knowledge management</data>
+<data key="type">research task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="task:exploration_portfolio_ranking">
+<data key="label">Portfolio and target ranking</data>
+<data key="type">business task</data>
+<data key="layer">task</data>
+<data key="position">应用层/研究任务</data>
+</node>
+<node id="data:geology_maps">
+<data key="label">Geological maps</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:geochemistry">
+<data key="label">Geochemical assays/anomalies</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:geophysics">
+<data key="label">Geophysical grids and inversions</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:remote_sensing">
+<data key="label">Multispectral remote sensing</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:hyperspectral">
+<data key="label">Hyperspectral imagery</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:drilling">
+<data key="label">Drilling/core/assay data</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:topography">
+<data key="label">DEM/topography</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:structure_faults">
+<data key="label">Faults, folds, structures</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:known_deposits">
+<data key="label">Known deposits/occurrences</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="data:text_reports">
+<data key="label">Reports, papers, regulations</data>
+<data key="type">data</data>
+<data key="layer">data</data>
+<data key="position">数据层/证据源</data>
+</node>
+<node id="capability:data_moat">
+<data key="label">专有数据护城河</data>
+<data key="type">competitive capability</data>
+<data key="layer">decision</data>
+<data key="position">决策层/商业护城河</data>
+</node>
+<node id="capability:spatial_validation">
+<data key="label">空间外推验证</data>
+<data key="type">competitive capability</data>
+<data key="layer">decision</data>
+<data key="position">决策层/可信度</data>
+</node>
+<node id="capability:explainable_evidence">
+<data key="label">可解释证据链</data>
+<data key="type">competitive capability</data>
+<data key="layer">decision</data>
+<data key="position">决策层/可信度</data>
+</node>
+<node id="capability:closed_loop_drilling">
+<data key="label">预测-采集-钻探闭环</data>
+<data key="type">competitive capability</data>
+<data key="layer">decision</data>
+<data key="position">决策层/现场闭环</data>
+</node>
+<node id="capability:low_disturbance">
+<data key="label">低扰动快速验证</data>
+<data key="type">competitive capability</data>
+<data key="layer">decision</data>
+<data key="position">决策层/许可与 ESG</data>
+</node>
+<node id="capability:foundation_models">
+<data key="label">地学基础模型</data>
+<data key="type">competitive capability</data>
+<data key="layer">model</data>
+<data key="position">AI 模型层/基础模型</data>
+</node>
+<node id="capability:kg_llm_workflow">
+<data key="label">知识图谱 + LLM/RAG</data>
+<data key="type">competitive capability</data>
+<data key="layer">model</data>
+<data key="position">AI 模型层/知识接口</data>
+</node>
+<node id="category:">
+<data key="label">钻孔、岩心与矿体表征</data>
+<data key="type">paper category</data>
+<data key="layer">category</data>
+<data key="position">论文分类层/主题簇</data>
+</node>
+<node id="category:ai_ml">
+<data key="label">通用 AI/ML 地学应用</data>
+<data key="type">paper category</data>
+<data key="layer">category</data>
+<data key="position">论文分类层/主题簇</data>
+</node>
+<node id="paper:pdf001">
+<data key="label">review remote sensing ml mineral exploration</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf002">
+<data key="label">future ai critical mineral exploration</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf003">
+<data key="label">geochemad benchmark geochemical anomaly</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf004">
+<data key="label">gfm4mpm geospatial foundation models</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf005">
+<data key="label">cross domain foundation model geophysics</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf006">
+<data key="label">generating mineral evidence maps from queries</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf012">
+<data key="label">ensemble ml strategies mpm limited data</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf014">
+<data key="label">feature fusion tsne geophysical features</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf015">
+<data key="label">improved mpm graph neural networks</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf016">
+<data key="label">deep seam explainable semisupervised mpm</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf019">
+<data key="label">geochemical anomaly irankuh hybrid ml</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf022">
+<data key="label">applied ml mpm southwest missouri thesis</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf025">
+<data key="label">geoconvention ml mpm giyani greenstone</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf028">
+<data key="label">knowledge guided ml komatiite zenodo</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf029">
+<data key="label">towards sustainable deep exploration minotaur</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf031">
+<data key="label">systematic review ml applications mining</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:pdf033">
+<data key="label">ai mineral identification review</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0131">
+<data key="label">SoilGrids250m: Global gridded soil information based on machine learning</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0385">
+<data key="label">Machine Learning in Agriculture: A Review</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0386">
+<data key="label">A review of statistically-based landslide susceptibility models</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0322">
+<data key="label">Big Data: New Tricks for Econometrics</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0113">
+<data key="label">Machine learning predictive models for mineral prospectivity: An evaluation of neural network...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0323">
+<data key="label">Convergence of Edge Computing and Deep Learning: A Comprehensive Survey</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0593">
+<data key="label">Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing and Applications for Ag...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0120">
+<data key="label">Machine learning in geosciences and remote sensing</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0324">
+<data key="label">Recent advances and applications of deep learning methods in materials science</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0387">
+<data key="label">A Review of Deep Learning in Medical Imaging: Imaging Traits, Technology Trends, Case Studies...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0214">
+<data key="label">Selecting critical features for data classification based on machine learning methods</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0325">
+<data key="label">Artificial intelligence and smart vision for building and construction 4.0: Machine and deep ...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0178">
+<data key="label">Using Machine Learning to Identify Diseases and Perform Sorting in Apple Fruit</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0543">
+<data key="label">Tackling Climate Change with Machine Learning</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0594">
+<data key="label">Global stocks and capacity of mineral-associated soil organic carbon</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0215">
+<data key="label">Prediction of undrained shear strength using extreme gradient boosting and random forest base...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0326">
+<data key="label">Machine Learning in Agriculture: A Comprehensive Updated Review</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0355">
+<data key="label">Innovations and challenges in adsorption-based wastewater remediation: A comprehensive review</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0327">
+<data key="label">Predictive modelling for solar thermal energy systems: A comparison of support vector regress...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0476">
+<data key="label">Influence of Data Splitting on Performance of Machine Learning Models in Prediction of Shear ...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0356">
+<data key="label">Mapping high resolution National Soil Information Grids of China</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0595">
+<data key="label">Multisource and Multitemporal Data Fusion in Remote Sensing: A Comprehensive Review of the St...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0492">
+<data key="label">Machine learning can predict survival of patients with heart failure from serum creatinine an...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0596">
+<data key="label">Digital Economy as a Factor in the Technological Development of the Mineral Sector</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0477">
+<data key="label">Application of machine learning and artificial intelligence in oil and gas industry</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0493">
+<data key="label">Attention-Based Adaptive Spectral–Spatial Kernel ResNet for Hyperspectral Image Classification</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0408">
+<data key="label">Support vector machine: A tool for mapping mineral prospectivity</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0216">
+<data key="label">Deep convolutional neural networks for Raman spectrum recognition: a unified solution</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0179">
+<data key="label">FPGA-Based Accelerators of Deep Learning Networks for Learning and Classification: A Review</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0328">
+<data key="label">A novel approach to explain the black-box nature of machine learning in compressive strength ...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0544">
+<data key="label">Machine learning at the energy and intensity frontiers of particle physics</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0409">
+<data key="label">Basic Tenets of Classification Algorithms K-Nearest-Neighbor, Support Vector Machine, Random ...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0306">
+<data key="label">A Signal Processing Perspective on Hyperspectral Unmixing: Insights from Remote Sensing</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0357">
+<data key="label">Spatial-Spectral Transformer for Hyperspectral Image Classification</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0580">
+<data key="label">A critical review of mineral–microbe interaction and co-evolution: mechanisms and applications</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0170">
+<data key="label">Landslide susceptibility mapping using machine learning algorithms and comparison of their pe...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0529">
+<data key="label">Assessing the predictive capability of ensemble tree methods for landslide susceptibility map...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0358">
+<data key="label">Hyperspectral Image Classification—Traditional to Deep Models: A Survey for Future Prospects</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0545">
+<data key="label">Emerging materials intelligence ecosystems propelled by machine learning</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0447">
+<data key="label">Deep learning and its application in geochemical mapping</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0031">
+<data key="label">A review of machine learning in processing remote sensing data for mineral exploration</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0597">
+<data key="label">Remote sensing for wetland classification: a comprehensive review</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0201">
+<data key="label">Hyperspectral remote sensing in lithological mapping, mineral exploration, and environmental ...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0265">
+<data key="label">Transformers in Remote Sensing: A Survey</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:oa0494">
+<data key="label">Big Data Creates New Opportunities for Materials Research: A Review on Methods and Applicatio...</data>
+<data key="type">representative paper</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/代表论文</data>
+</node>
+<node id="paper:local_pdf_001">
+<data key="label">2019 Boosting for Mineral Prospectivity Modeling A New GIS Toolbox</data>
+<data key="type">local open PDF</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/本地开放 PDF</data>
+</node>
+<node id="paper:local_pdf_002">
+<data key="label">2024 Geologically-constrained GANomaly network for mineral prospectivity mapping through frequen...</data>
+<data key="type">local open PDF</data>
+<data key="layer">paper</data>
+<data key="position">论文证据层/本地开放 PDF</data>
+</node>
+<node id="company:kobold_metals">
+<data key="label">KoBold Metals</data>
+<data key="type">company</data>
+<data key="layer">company</data>
+<data key="position">公司层/全栈资产生成 + AI+HI</data>
+</node>
+<node id="company:earth_ai">
+<data key="label">Earth AI</data>
+<data key="type">company</data>
+<data key="layer">company</data>
+<data key="position">公司层/AI 找矿 + 低扰动钻探闭环</data>
+</node>
+<node id="company:verai">
+<data key="label">VerAI Discoveries</data>
+<data key="type">company</data>
+<data key="layer">company</data>
+<data key="position">公司层/AI-native mineral asset generator</data>
+</node>
+<node id="company:fleet_space">
+<data key="label">Fleet Space ExoSphere</data>
+<data key="type">company</data>
+<data key="layer">company</data>
+<data key="position">公司层/实时地球物理传感 + AI</data>
+</node>
+<node id="company:geologic_ai">
+<data key="label">GeologicAI</data>
+<data key="type">company</data>
+<data key="layer">company</data>
+<data key="position">公司层/岩心扫描 + 数字岩心 AI</data>
+</node>
+<node id="company:orefox">
+<data key="label">OreFox</data>
+<data key="type">company</data>
+<data key="layer">company</data>
+<data key="position">公司层/AI 探矿服务</data>
+</node>
+<node id="company:minerva">
+<data key="label">Minerva Intelligence</data>
+<data key="type">company</data>
+<data key="layer">company</data>
+<data key="position">公司层/认知 AI + 语义网络</data>
+</node>
+<edge id="e0" source="data:geology_maps" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e1" source="data:geochemistry" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e2" source="data:geophysics" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e3" source="data:remote_sensing" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e4" source="data:hyperspectral" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e5" source="data:drilling" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e6" source="data:topography" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e7" source="data:structure_faults" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e8" source="data:known_deposits" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e9" source="data:text_reports" target="tech:data_fusion"><data key="relation">feeds</data></edge>
+<edge id="e10" source="tech:data_fusion" target="task:mineral_prospectivity_mapping"><data key="relation">supports</data></edge>
+<edge id="e11" source="tech:data_fusion" target="task:geochemical_anomaly_detection"><data key="relation">supports</data></edge>
+<edge id="e12" source="tech:data_fusion" target="task:remote_sensing_mineral_mapping"><data key="relation">supports</data></edge>
+<edge id="e13" source="tech:data_fusion" target="task:hyperspectral_lithology_mapping"><data key="relation">supports</data></edge>
+<edge id="e14" source="tech:data_fusion" target="task:geophysical_inversion_interpretation"><data key="relation">supports</data></edge>
+<edge id="e15" source="tech:data_fusion" target="task:drill_core_logging"><data key="relation">supports</data></edge>
+<edge id="e16" source="tech:data_fusion" target="task:ore_deposit_classification"><data key="relation">supports</data></edge>
+<edge id="e17" source="tech:data_fusion" target="task:knowledge_management"><data key="relation">supports</data></edge>
+<edge id="e18" source="tech:data_fusion" target="task:exploration_portfolio_ranking"><data key="relation">supports</data></edge>
+<edge id="e19" source="tech:random_forest" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e20" source="tech:xgboost" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e21" source="tech:svm" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e22" source="tech:gradient_boosting" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e23" source="tech:mlp" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e24" source="tech:cnn" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e25" source="tech:gnn" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e26" source="tech:gat" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e27" source="tech:foundation_model" target="task:mineral_prospectivity_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e28" source="tech:isolation_forest" target="task:geochemical_anomaly_detection"><data key="relation">applied_to</data></edge>
+<edge id="e29" source="tech:one_class_svm" target="task:geochemical_anomaly_detection"><data key="relation">applied_to</data></edge>
+<edge id="e30" source="tech:som" target="task:geochemical_anomaly_detection"><data key="relation">applied_to</data></edge>
+<edge id="e31" source="tech:kmeans" target="task:geochemical_anomaly_detection"><data key="relation">applied_to</data></edge>
+<edge id="e32" source="tech:autoencoder" target="task:geochemical_anomaly_detection"><data key="relation">applied_to</data></edge>
+<edge id="e33" source="tech:fractal" target="task:geochemical_anomaly_detection"><data key="relation">applied_to</data></edge>
+<edge id="e34" source="tech:cnn" target="task:geochemical_anomaly_detection"><data key="relation">applied_to</data></edge>
+<edge id="e35" source="tech:gnn" target="task:geochemical_anomaly_detection"><data key="relation">applied_to</data></edge>
+<edge id="e36" source="tech:cnn" target="task:remote_sensing_mineral_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e37" source="tech:cnn" target="task:hyperspectral_lithology_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e38" source="tech:unet" target="task:remote_sensing_mineral_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e39" source="tech:unet" target="task:hyperspectral_lithology_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e40" source="tech:resnet" target="task:remote_sensing_mineral_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e41" source="tech:resnet" target="task:hyperspectral_lithology_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e42" source="tech:vision_transformer" target="task:remote_sensing_mineral_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e43" source="tech:vision_transformer" target="task:hyperspectral_lithology_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e44" source="tech:transformer" target="task:remote_sensing_mineral_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e45" source="tech:transformer" target="task:hyperspectral_lithology_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e46" source="tech:svm" target="task:remote_sensing_mineral_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e47" source="tech:svm" target="task:hyperspectral_lithology_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e48" source="tech:random_forest" target="task:remote_sensing_mineral_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e49" source="tech:random_forest" target="task:hyperspectral_lithology_mapping"><data key="relation">applied_to</data></edge>
+<edge id="e50" source="tech:cnn" target="task:geophysical_inversion_interpretation"><data key="relation">applied_to</data></edge>
+<edge id="e51" source="tech:autoencoder" target="task:geophysical_inversion_interpretation"><data key="relation">applied_to</data></edge>
+<edge id="e52" source="tech:gan" target="task:geophysical_inversion_interpretation"><data key="relation">applied_to</data></edge>
+<edge id="e53" source="tech:transformer" target="task:geophysical_inversion_interpretation"><data key="relation">applied_to</data></edge>
+<edge id="e54" source="tech:gaussian_process" target="task:geophysical_inversion_interpretation"><data key="relation">applied_to</data></edge>
+<edge id="e55" source="tech:bayesian_uncertainty" target="task:geophysical_inversion_interpretation"><data key="relation">applied_to</data></edge>
+<edge id="e56" source="tech:gnn" target="task:geophysical_inversion_interpretation"><data key="relation">applied_to</data></edge>
+<edge id="e57" source="tech:cnn" target="task:drill_core_logging"><data key="relation">applied_to</data></edge>
+<edge id="e58" source="tech:resnet" target="task:drill_core_logging"><data key="relation">applied_to</data></edge>
+<edge id="e59" source="tech:unet" target="task:drill_core_logging"><data key="relation">applied_to</data></edge>
+<edge id="e60" source="tech:random_forest" target="task:drill_core_logging"><data key="relation">applied_to</data></edge>
+<edge id="e61" source="tech:xgboost" target="task:drill_core_logging"><data key="relation">applied_to</data></edge>
+<edge id="e62" source="tech:knowledge_graph" target="task:knowledge_management"><data key="relation">applied_to</data></edge>
+<edge id="e63" source="tech:llm" target="task:knowledge_management"><data key="relation">applied_to</data></edge>
+<edge id="e64" source="tech:rag" target="task:knowledge_management"><data key="relation">applied_to</data></edge>
+<edge id="e65" source="tech:foundation_model" target="task:knowledge_management"><data key="relation">applied_to</data></edge>
+<edge id="e66" source="tech:shap" target="task:exploration_portfolio_ranking"><data key="relation">reduces_risk_for</data></edge>
+<edge id="e67" source="tech:lime" target="task:exploration_portfolio_ranking"><data key="relation">reduces_risk_for</data></edge>
+<edge id="e68" source="tech:permutation_importance" target="task:exploration_portfolio_ranking"><data key="relation">reduces_risk_for</data></edge>
+<edge id="e69" source="tech:partial_dependence" target="task:exploration_portfolio_ranking"><data key="relation">reduces_risk_for</data></edge>
+<edge id="e70" source="tech:bayesian_uncertainty" target="task:exploration_portfolio_ranking"><data key="relation">reduces_risk_for</data></edge>
+<edge id="e71" source="tech:spatial_cross_validation" target="task:exploration_portfolio_ranking"><data key="relation">reduces_risk_for</data></edge>
+<edge id="e72" source="data:geology_maps" target="task:mineral_prospectivity_mapping"><data key="relation">input_to</data></edge>
+<edge id="e73" source="data:geochemistry" target="task:mineral_prospectivity_mapping"><data key="relation">input_to</data></edge>
+<edge id="e74" source="data:geophysics" target="task:mineral_prospectivity_mapping"><data key="relation">input_to</data></edge>
+<edge id="e75" source="data:remote_sensing" target="task:mineral_prospectivity_mapping"><data key="relation">input_to</data></edge>
+<edge id="e76" source="data:structure_faults" target="task:mineral_prospectivity_mapping"><data key="relation">input_to</data></edge>
+<edge id="e77" source="data:known_deposits" target="task:mineral_prospectivity_mapping"><data key="relation">input_to</data></edge>
+<edge id="e78" source="data:geochemistry" target="task:geochemical_anomaly_detection"><data key="relation">input_to</data></edge>
+<edge id="e79" source="data:geophysics" target="task:geophysical_inversion_interpretation"><data key="relation">input_to</data></edge>
+<edge id="e80" source="data:remote_sensing" target="task:remote_sensing_mineral_mapping"><data key="relation">input_to</data></edge>
+<edge id="e81" source="data:hyperspectral" target="task:hyperspectral_lithology_mapping"><data key="relation">input_to</data></edge>
+<edge id="e82" source="data:drilling" target="task:drill_core_logging"><data key="relation">input_to</data></edge>
+<edge id="e83" source="task:mineral_prospectivity_mapping" target="tech:target_ranking"><data key="relation">produces_evidence_for</data></edge>
+<edge id="e84" source="task:geochemical_anomaly_detection" target="tech:target_ranking"><data key="relation">produces_evidence_for</data></edge>
+<edge id="e85" source="task:remote_sensing_mineral_mapping" target="tech:target_ranking"><data key="relation">produces_evidence_for</data></edge>
+<edge id="e86" source="task:geophysical_inversion_interpretation" target="tech:target_ranking"><data key="relation">produces_evidence_for</data></edge>
+<edge id="e87" source="tech:target_ranking" target="tech:drilling_recommendation"><data key="relation">prioritizes</data></edge>
+<edge id="e88" source="tech:prospectivity_map" target="tech:target_ranking"><data key="relation">feeds</data></edge>
+<edge id="e89" source="paper:pdf001" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e90" source="paper:pdf001" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e91" source="paper:pdf001" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e92" source="paper:pdf001" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e93" source="paper:pdf002" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e94" source="paper:pdf003" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e95" source="paper:pdf003" target="task:geochemical_anomaly_detection"><data key="relation">studies_task</data></edge>
+<edge id="e96" source="paper:pdf003" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e97" source="paper:pdf004" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e98" source="paper:pdf005" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e99" source="paper:pdf005" target="tech:foundation_model"><data key="relation">mentions_technology</data></edge>
+<edge id="e100" source="paper:pdf005" target="task:geophysical_inversion_interpretation"><data key="relation">studies_task</data></edge>
+<edge id="e101" source="paper:pdf005" target="data:geophysics"><data key="relation">uses_data</data></edge>
+<edge id="e102" source="paper:pdf006" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e103" source="paper:pdf006" target="task:knowledge_management"><data key="relation">studies_task</data></edge>
+<edge id="e104" source="paper:pdf006" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e105" source="paper:pdf012" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e106" source="paper:pdf012" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e107" source="paper:pdf012" target="tech:ensemble_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e108" source="paper:pdf014" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e109" source="paper:pdf014" target="tech:tsne"><data key="relation">mentions_technology</data></edge>
+<edge id="e110" source="paper:pdf014" target="task:geophysical_inversion_interpretation"><data key="relation">studies_task</data></edge>
+<edge id="e111" source="paper:pdf014" target="data:geophysics"><data key="relation">uses_data</data></edge>
+<edge id="e112" source="paper:pdf015" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e113" source="paper:pdf015" target="tech:gnn"><data key="relation">mentions_technology</data></edge>
+<edge id="e114" source="paper:pdf016" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e115" source="paper:pdf016" target="tech:semi_supervised_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e116" source="paper:pdf019" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e117" source="paper:pdf019" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e118" source="paper:pdf019" target="task:geochemical_anomaly_detection"><data key="relation">studies_task</data></edge>
+<edge id="e119" source="paper:pdf019" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e120" source="paper:pdf022" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e121" source="paper:pdf022" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e122" source="paper:pdf025" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e123" source="paper:pdf025" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e124" source="paper:pdf028" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e125" source="paper:pdf028" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e126" source="paper:pdf028" target="task:ore_deposit_classification"><data key="relation">studies_task</data></edge>
+<edge id="e127" source="paper:pdf028" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e128" source="paper:pdf029" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e129" source="paper:pdf031" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e130" source="paper:pdf031" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e131" source="paper:pdf033" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e132" source="paper:oa0131" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e133" source="paper:oa0131" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e134" source="paper:oa0131" target="tech:ensemble_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e135" source="paper:oa0131" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e136" source="paper:oa0131" target="tech:gradient_boosting"><data key="relation">mentions_technology</data></edge>
+<edge id="e137" source="paper:oa0131" target="tech:xgboost"><data key="relation">mentions_technology</data></edge>
+<edge id="e138" source="paper:oa0131" target="tech:logistic_regression"><data key="relation">mentions_technology</data></edge>
+<edge id="e139" source="paper:oa0131" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e140" source="paper:oa0131" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e141" source="paper:oa0131" target="data:geology_maps"><data key="relation">uses_data</data></edge>
+<edge id="e142" source="paper:oa0131" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e143" source="paper:oa0131" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e144" source="paper:oa0131" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e145" source="paper:oa0131" target="data:structure_faults"><data key="relation">uses_data</data></edge>
+<edge id="e146" source="paper:oa0131" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e147" source="paper:oa0385" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e148" source="paper:oa0385" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e149" source="paper:oa0385" target="task:exploration_portfolio_ranking"><data key="relation">studies_task</data></edge>
+<edge id="e150" source="paper:oa0385" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e151" source="paper:oa0385" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e152" source="paper:oa0385" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e153" source="paper:oa0386" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e154" source="paper:oa0386" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e155" source="paper:oa0386" target="tech:logistic_regression"><data key="relation">mentions_technology</data></edge>
+<edge id="e156" source="paper:oa0386" target="tech:gis_overlay"><data key="relation">mentions_technology</data></edge>
+<edge id="e157" source="paper:oa0386" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e158" source="paper:oa0386" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e159" source="paper:oa0322" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e160" source="paper:oa0322" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e161" source="paper:oa0322" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e162" source="paper:oa0322" target="task:exploration_portfolio_ranking"><data key="relation">studies_task</data></edge>
+<edge id="e163" source="paper:oa0113" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e164" source="paper:oa0113" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e165" source="paper:oa0113" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e166" source="paper:oa0113" target="task:mineral_prospectivity_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e167" source="paper:oa0323" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e168" source="paper:oa0323" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e169" source="paper:oa0323" target="tech:attention"><data key="relation">mentions_technology</data></edge>
+<edge id="e170" source="paper:oa0323" target="data:drilling"><data key="relation">uses_data</data></edge>
+<edge id="e171" source="paper:oa0323" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e172" source="paper:oa0593" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e173" source="paper:oa0593" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e174" source="paper:oa0593" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e175" source="paper:oa0593" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e176" source="paper:oa0593" target="data:hyperspectral"><data key="relation">uses_data</data></edge>
+<edge id="e177" source="paper:oa0593" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e178" source="paper:oa0120" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e179" source="paper:oa0120" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e180" source="paper:oa0120" target="tech:som"><data key="relation">mentions_technology</data></edge>
+<edge id="e181" source="paper:oa0120" target="tech:attention"><data key="relation">mentions_technology</data></edge>
+<edge id="e182" source="paper:oa0120" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e183" source="paper:oa0120" target="task:exploration_portfolio_ranking"><data key="relation">studies_task</data></edge>
+<edge id="e184" source="paper:oa0120" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e185" source="paper:oa0120" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e186" source="paper:oa0324" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e187" source="paper:oa0324" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e188" source="paper:oa0324" target="tech:unsupervised_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e189" source="paper:oa0324" target="tech:bayesian_uncertainty"><data key="relation">mentions_technology</data></edge>
+<edge id="e190" source="paper:oa0324" target="task:knowledge_management"><data key="relation">studies_task</data></edge>
+<edge id="e191" source="paper:oa0324" target="data:structure_faults"><data key="relation">uses_data</data></edge>
+<edge id="e192" source="paper:oa0387" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e193" source="paper:oa0387" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e194" source="paper:oa0387" target="tech:bayesian_uncertainty"><data key="relation">mentions_technology</data></edge>
+<edge id="e195" source="paper:oa0387" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e196" source="paper:oa0214" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e197" source="paper:oa0214" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e198" source="paper:oa0214" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e199" source="paper:oa0214" target="tech:svm"><data key="relation">mentions_technology</data></edge>
+<edge id="e200" source="paper:oa0214" target="tech:knn"><data key="relation">mentions_technology</data></edge>
+<edge id="e201" source="paper:oa0214" target="tech:feature_selection"><data key="relation">mentions_technology</data></edge>
+<edge id="e202" source="paper:oa0214" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e203" source="paper:oa0214" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e204" source="paper:oa0325" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e205" source="paper:oa0325" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e206" source="paper:oa0325" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e207" source="paper:oa0325" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e208" source="paper:oa0178" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e209" source="paper:oa0178" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e210" source="paper:oa0178" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e211" source="paper:oa0178" target="tech:cnn"><data key="relation">mentions_technology</data></edge>
+<edge id="e212" source="paper:oa0178" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e213" source="paper:oa0178" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e214" source="paper:oa0178" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e215" source="paper:oa0543" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e216" source="paper:oa0543" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e217" source="paper:oa0543" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e218" source="paper:oa0543" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e219" source="paper:oa0594" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e220" source="paper:oa0594" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e221" source="paper:oa0215" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e222" source="paper:oa0215" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e223" source="paper:oa0215" target="tech:ensemble_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e224" source="paper:oa0215" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e225" source="paper:oa0215" target="tech:gradient_boosting"><data key="relation">mentions_technology</data></edge>
+<edge id="e226" source="paper:oa0215" target="tech:xgboost"><data key="relation">mentions_technology</data></edge>
+<edge id="e227" source="paper:oa0215" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e228" source="paper:oa0215" target="data:structure_faults"><data key="relation">uses_data</data></edge>
+<edge id="e229" source="paper:oa0326" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e230" source="paper:oa0326" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e231" source="paper:oa0326" target="tech:attention"><data key="relation">mentions_technology</data></edge>
+<edge id="e232" source="paper:oa0326" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e233" source="paper:oa0326" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e234" source="paper:oa0355" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e235" source="paper:oa0355" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e236" source="paper:oa0355" target="data:structure_faults"><data key="relation">uses_data</data></edge>
+<edge id="e237" source="paper:oa0327" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e238" source="paper:oa0327" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e239" source="paper:oa0327" target="tech:ensemble_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e240" source="paper:oa0327" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e241" source="paper:oa0327" target="task:exploration_portfolio_ranking"><data key="relation">studies_task</data></edge>
+<edge id="e242" source="paper:oa0327" target="data:structure_faults"><data key="relation">uses_data</data></edge>
+<edge id="e243" source="paper:oa0327" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e244" source="paper:oa0476" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e245" source="paper:oa0476" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e246" source="paper:oa0476" target="tech:gradient_boosting"><data key="relation">mentions_technology</data></edge>
+<edge id="e247" source="paper:oa0476" target="tech:mlp"><data key="relation">mentions_technology</data></edge>
+<edge id="e248" source="paper:oa0476" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e249" source="paper:oa0356" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e250" source="paper:oa0356" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e251" source="paper:oa0356" target="tech:ensemble_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e252" source="paper:oa0356" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e253" source="paper:oa0595" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e254" source="paper:oa0595" target="tech:data_fusion"><data key="relation">mentions_technology</data></edge>
+<edge id="e255" source="paper:oa0595" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e256" source="paper:oa0595" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e257" source="paper:oa0595" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e258" source="paper:oa0595" target="data:hyperspectral"><data key="relation">uses_data</data></edge>
+<edge id="e259" source="paper:oa0492" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e260" source="paper:oa0492" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e261" source="paper:oa0492" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e262" source="paper:oa0596" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e263" source="paper:oa0596" target="tech:attention"><data key="relation">mentions_technology</data></edge>
+<edge id="e264" source="paper:oa0596" target="data:structure_faults"><data key="relation">uses_data</data></edge>
+<edge id="e265" source="paper:oa0477" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e266" source="paper:oa0477" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e267" source="paper:oa0477" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e268" source="paper:oa0493" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e269" source="paper:oa0493" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e270" source="paper:oa0493" target="tech:resnet"><data key="relation">mentions_technology</data></edge>
+<edge id="e271" source="paper:oa0493" target="tech:attention"><data key="relation">mentions_technology</data></edge>
+<edge id="e272" source="paper:oa0493" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e273" source="paper:oa0493" target="data:hyperspectral"><data key="relation">uses_data</data></edge>
+<edge id="e274" source="paper:oa0408" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e275" source="paper:oa0408" target="tech:svm"><data key="relation">mentions_technology</data></edge>
+<edge id="e276" source="paper:oa0408" target="task:mineral_prospectivity_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e277" source="paper:oa0216" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e278" source="paper:oa0216" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e279" source="paper:oa0216" target="tech:svm"><data key="relation">mentions_technology</data></edge>
+<edge id="e280" source="paper:oa0216" target="tech:cnn"><data key="relation">mentions_technology</data></edge>
+<edge id="e281" source="paper:oa0216" target="tech:pca"><data key="relation">mentions_technology</data></edge>
+<edge id="e282" source="paper:oa0216" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e283" source="paper:oa0179" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e284" source="paper:oa0179" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e285" source="paper:oa0179" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e286" source="paper:oa0179" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e287" source="paper:oa0328" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e288" source="paper:oa0328" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e289" source="paper:oa0328" target="tech:supervised_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e290" source="paper:oa0328" target="tech:decision_tree"><data key="relation">mentions_technology</data></edge>
+<edge id="e291" source="paper:oa0328" target="tech:gradient_boosting"><data key="relation">mentions_technology</data></edge>
+<edge id="e292" source="paper:oa0328" target="tech:xgboost"><data key="relation">mentions_technology</data></edge>
+<edge id="e293" source="paper:oa0328" target="tech:shap"><data key="relation">mentions_technology</data></edge>
+<edge id="e294" source="paper:oa0328" target="task:exploration_portfolio_ranking"><data key="relation">studies_task</data></edge>
+<edge id="e295" source="paper:oa0544" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e296" source="paper:oa0544" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e297" source="paper:oa0409" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e298" source="paper:oa0409" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e299" source="paper:oa0409" target="tech:svm"><data key="relation">mentions_technology</data></edge>
+<edge id="e300" source="paper:oa0409" target="tech:knn"><data key="relation">mentions_technology</data></edge>
+<edge id="e301" source="paper:oa0409" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e302" source="paper:oa0409" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e303" source="paper:oa0409" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e304" source="paper:oa0306" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e305" source="paper:oa0306" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e306" source="paper:oa0306" target="tech:unsupervised_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e307" source="paper:oa0306" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e308" source="paper:oa0306" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e309" source="paper:oa0306" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e310" source="paper:oa0306" target="data:hyperspectral"><data key="relation">uses_data</data></edge>
+<edge id="e311" source="paper:oa0357" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e312" source="paper:oa0357" target="tech:transfer_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e313" source="paper:oa0357" target="tech:mlp"><data key="relation">mentions_technology</data></edge>
+<edge id="e314" source="paper:oa0357" target="tech:cnn"><data key="relation">mentions_technology</data></edge>
+<edge id="e315" source="paper:oa0357" target="tech:transformer"><data key="relation">mentions_technology</data></edge>
+<edge id="e316" source="paper:oa0357" target="tech:attention"><data key="relation">mentions_technology</data></edge>
+<edge id="e317" source="paper:oa0357" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e318" source="paper:oa0357" target="data:hyperspectral"><data key="relation">uses_data</data></edge>
+<edge id="e319" source="paper:oa0580" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e320" source="paper:oa0580" target="task:ore_deposit_classification"><data key="relation">studies_task</data></edge>
+<edge id="e321" source="paper:oa0580" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e322" source="paper:oa0170" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e323" source="paper:oa0170" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e324" source="paper:oa0170" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e325" source="paper:oa0170" target="tech:svm"><data key="relation">mentions_technology</data></edge>
+<edge id="e326" source="paper:oa0170" target="tech:naive_bayes"><data key="relation">mentions_technology</data></edge>
+<edge id="e327" source="paper:oa0170" target="tech:mlp"><data key="relation">mentions_technology</data></edge>
+<edge id="e328" source="paper:oa0170" target="tech:gis_overlay"><data key="relation">mentions_technology</data></edge>
+<edge id="e329" source="paper:oa0170" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e330" source="paper:oa0170" target="data:geology_maps"><data key="relation">uses_data</data></edge>
+<edge id="e331" source="paper:oa0170" target="data:structure_faults"><data key="relation">uses_data</data></edge>
+<edge id="e332" source="paper:oa0529" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e333" source="paper:oa0529" target="tech:ensemble_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e334" source="paper:oa0529" target="tech:random_forest"><data key="relation">mentions_technology</data></edge>
+<edge id="e335" source="paper:oa0529" target="tech:gradient_boosting"><data key="relation">mentions_technology</data></edge>
+<edge id="e336" source="paper:oa0529" target="tech:xgboost"><data key="relation">mentions_technology</data></edge>
+<edge id="e337" source="paper:oa0358" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e338" source="paper:oa0358" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e339" source="paper:oa0358" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e340" source="paper:oa0358" target="data:hyperspectral"><data key="relation">uses_data</data></edge>
+<edge id="e341" source="paper:oa0545" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e342" source="paper:oa0545" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e343" source="paper:oa0447" target="category:ai_ml"><data key="relation">classified_as</data></edge>
+<edge id="e344" source="paper:oa0447" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e345" source="paper:oa0447" target="data:geochemistry"><data key="relation">uses_data</data></edge>
+<edge id="e346" source="paper:oa0031" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e347" source="paper:oa0031" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e348" source="paper:oa0031" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e349" source="paper:oa0031" target="task:mineral_prospectivity_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e350" source="paper:oa0031" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e351" source="paper:oa0031" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e352" source="paper:oa0031" target="task:ore_deposit_classification"><data key="relation">studies_task</data></edge>
+<edge id="e353" source="paper:oa0031" target="task:exploration_portfolio_ranking"><data key="relation">studies_task</data></edge>
+<edge id="e354" source="paper:oa0031" target="data:geology_maps"><data key="relation">uses_data</data></edge>
+<edge id="e355" source="paper:oa0031" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e356" source="paper:oa0031" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e357" source="paper:oa0031" target="data:structure_faults"><data key="relation">uses_data</data></edge>
+<edge id="e358" source="paper:oa0031" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e359" source="paper:oa0597" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e360" source="paper:oa0597" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e361" source="paper:oa0597" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e362" source="paper:oa0597" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e363" source="paper:oa0201" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e364" source="paper:oa0201" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e365" source="paper:oa0201" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e366" source="paper:oa0201" target="data:geology_maps"><data key="relation">uses_data</data></edge>
+<edge id="e367" source="paper:oa0201" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e368" source="paper:oa0201" target="data:hyperspectral"><data key="relation">uses_data</data></edge>
+<edge id="e369" source="paper:oa0201" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e370" source="paper:oa0265" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e371" source="paper:oa0265" target="tech:deep_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e372" source="paper:oa0265" target="tech:transformer"><data key="relation">mentions_technology</data></edge>
+<edge id="e373" source="paper:oa0265" target="tech:attention"><data key="relation">mentions_technology</data></edge>
+<edge id="e374" source="paper:oa0265" target="task:remote_sensing_mineral_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e375" source="paper:oa0265" target="task:hyperspectral_lithology_mapping"><data key="relation">studies_task</data></edge>
+<edge id="e376" source="paper:oa0265" target="task:knowledge_management"><data key="relation">studies_task</data></edge>
+<edge id="e377" source="paper:oa0265" target="data:remote_sensing"><data key="relation">uses_data</data></edge>
+<edge id="e378" source="paper:oa0265" target="data:hyperspectral"><data key="relation">uses_data</data></edge>
+<edge id="e379" source="paper:oa0265" target="data:text_reports"><data key="relation">uses_data</data></edge>
+<edge id="e380" source="paper:oa0494" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e381" source="paper:oa0494" target="tech:machine_learning"><data key="relation">mentions_technology</data></edge>
+<edge id="e382" source="paper:oa0494" target="data:topography"><data key="relation">uses_data</data></edge>
+<edge id="e383" source="paper:local_pdf_001" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e384" source="paper:local_pdf_002" target="category:"><data key="relation">classified_as</data></edge>
+<edge id="e385" source="company:kobold_metals" target="capability:data_moat"><data key="relation">competes_on</data></edge>
+<edge id="e386" source="company:kobold_metals" target="capability:explainable_evidence"><data key="relation">competes_on</data></edge>
+<edge id="e387" source="company:kobold_metals" target="capability:foundation_models"><data key="relation">competes_on</data></edge>
+<edge id="e388" source="company:kobold_metals" target="task:mineral_prospectivity_mapping"><data key="relation">competes_on</data></edge>
+<edge id="e389" source="company:earth_ai" target="capability:closed_loop_drilling"><data key="relation">competes_on</data></edge>
+<edge id="e390" source="company:earth_ai" target="capability:low_disturbance"><data key="relation">competes_on</data></edge>
+<edge id="e391" source="company:earth_ai" target="task:exploration_portfolio_ranking"><data key="relation">competes_on</data></edge>
+<edge id="e392" source="company:earth_ai" target="tech:drilling_recommendation"><data key="relation">competes_on</data></edge>
+<edge id="e393" source="company:verai" target="capability:data_moat"><data key="relation">competes_on</data></edge>
+<edge id="e394" source="company:verai" target="task:exploration_portfolio_ranking"><data key="relation">competes_on</data></edge>
+<edge id="e395" source="company:verai" target="task:mineral_prospectivity_mapping"><data key="relation">competes_on</data></edge>
+<edge id="e396" source="company:fleet_space" target="capability:closed_loop_drilling"><data key="relation">competes_on</data></edge>
+<edge id="e397" source="company:fleet_space" target="capability:low_disturbance"><data key="relation">competes_on</data></edge>
+<edge id="e398" source="company:fleet_space" target="task:geophysical_inversion_interpretation"><data key="relation">competes_on</data></edge>
+<edge id="e399" source="company:fleet_space" target="data:geophysics"><data key="relation">competes_on</data></edge>
+<edge id="e400" source="company:geologic_ai" target="task:drill_core_logging"><data key="relation">competes_on</data></edge>
+<edge id="e401" source="company:geologic_ai" target="data:drilling"><data key="relation">competes_on</data></edge>
+<edge id="e402" source="company:geologic_ai" target="capability:closed_loop_drilling"><data key="relation">competes_on</data></edge>
+<edge id="e403" source="company:orefox" target="task:mineral_prospectivity_mapping"><data key="relation">competes_on</data></edge>
+<edge id="e404" source="company:orefox" target="task:exploration_portfolio_ranking"><data key="relation">competes_on</data></edge>
+<edge id="e405" source="company:orefox" target="tech:machine_learning"><data key="relation">competes_on</data></edge>
+<edge id="e406" source="company:minerva" target="capability:kg_llm_workflow"><data key="relation">competes_on</data></edge>
+<edge id="e407" source="company:minerva" target="tech:knowledge_graph"><data key="relation">competes_on</data></edge>
+<edge id="e408" source="company:minerva" target="tech:bayesian_uncertainty"><data key="relation">competes_on</data></edge>
+</graph>
+</graphml>

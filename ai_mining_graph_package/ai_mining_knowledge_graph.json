@@ -1,0 +1,5775 @@
+{
+  "title": "AI+探矿行业知识图谱",
+  "generated_from": {
+    "papers": 639,
+    "downloaded_pdfs": 17,
+    "source_files": [
+      "output/knowledge_graph_nodes.csv",
+      "output/knowledge_graph_edges.csv",
+      "output/paper_catalog.csv"
+    ],
+    "github_inspiration": [
+      "https://github.com/agtm1199/build-kg",
+      "https://github.com/Egonex-AI/Understand-Anything"
+    ]
+  },
+  "layers": {
+    "data": "数据层",
+    "feature": "特征/工程层",
+    "model": "AI 模型层",
+    "task": "任务层",
+    "decision": "决策层",
+    "company": "公司/竞争层",
+    "paper": "论文证据层",
+    "category": "论文分类层"
+  },
+  "nodes": [
+    {
+      "id": "tech:machine_learning",
+      "label": "Machine learning",
+      "type": "AI/model family",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 341
+      }
+    },
+    {
+      "id": "tech:deep_learning",
+      "label": "Deep learning",
+      "type": "AI/model family",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 147
+      }
+    },
+    {
+      "id": "tech:supervised_learning",
+      "label": "Supervised learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 48
+      }
+    },
+    {
+      "id": "tech:semi_supervised_learning",
+      "label": "Semi-supervised learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 14
+      }
+    },
+    {
+      "id": "tech:self_supervised_learning",
+      "label": "Self-supervised learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:unsupervised_learning",
+      "label": "Unsupervised learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 26
+      }
+    },
+    {
+      "id": "tech:transfer_learning",
+      "label": "Transfer learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 18
+      }
+    },
+    {
+      "id": "tech:active_learning",
+      "label": "Active learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:few_shot_learning",
+      "label": "Few-shot learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 3
+      }
+    },
+    {
+      "id": "tech:ensemble_learning",
+      "label": "Ensemble learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 45
+      }
+    },
+    {
+      "id": "tech:federated_learning",
+      "label": "Federated learning",
+      "type": "AI/paradigm",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/learning paradigm",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:random_forest",
+      "label": "Random Forest",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "classical_ml",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 124
+      }
+    },
+    {
+      "id": "tech:decision_tree",
+      "label": "Decision Tree",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "classical_ml",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 21
+      }
+    },
+    {
+      "id": "tech:gradient_boosting",
+      "label": "Gradient Boosting",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "classical_ml",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 41
+      }
+    },
+    {
+      "id": "tech:xgboost",
+      "label": "XGBoost",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "classical_ml",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 36
+      }
+    },
+    {
+      "id": "tech:lightgbm",
+      "label": "LightGBM",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 8
+      }
+    },
+    {
+      "id": "tech:catboost",
+      "label": "CatBoost",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 3
+      }
+    },
+    {
+      "id": "tech:svm",
+      "label": "Support Vector Machine",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "classical_ml",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 91
+      }
+    },
+    {
+      "id": "tech:knn",
+      "label": "k-Nearest Neighbors",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "classical_ml",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 12
+      }
+    },
+    {
+      "id": "tech:logistic_regression",
+      "label": "Logistic Regression",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "classical_ml",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 27
+      }
+    },
+    {
+      "id": "tech:naive_bayes",
+      "label": "Naive Bayes",
+      "type": "AI/classical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 6
+      }
+    },
+    {
+      "id": "tech:bayesian_network",
+      "label": "Bayesian Network",
+      "type": "AI/probabilistic model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/uncertainty",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:gaussian_process",
+      "label": "Gaussian Process",
+      "type": "AI/probabilistic model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/uncertainty",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 2
+      }
+    },
+    {
+      "id": "tech:markov_random_field",
+      "label": "Markov Random Field",
+      "type": "AI/probabilistic model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/spatial model",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:mlp",
+      "label": "Multilayer Perceptron / ANN",
+      "type": "AI/neural model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/modeling",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 45
+      }
+    },
+    {
+      "id": "tech:cnn",
+      "label": "Convolutional Neural Network",
+      "type": "AI/deep model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/spatial/deep learning",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 74
+      }
+    },
+    {
+      "id": "tech:rnn_lstm_gru",
+      "label": "RNN / LSTM / GRU",
+      "type": "AI/deep model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/sequence learning",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 11
+      }
+    },
+    {
+      "id": "tech:autoencoder",
+      "label": "Autoencoder",
+      "type": "AI/deep model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/representation learning",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 9
+      }
+    },
+    {
+      "id": "tech:vae",
+      "label": "Variational Autoencoder",
+      "type": "AI/generative model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/generative learning",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:gan",
+      "label": "Generative Adversarial Network",
+      "type": "AI/generative model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/generative learning",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 13
+      }
+    },
+    {
+      "id": "tech:diffusion_model",
+      "label": "Diffusion Model",
+      "type": "AI/generative model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/generative learning",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:transformer",
+      "label": "Transformer",
+      "type": "AI/foundation model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/foundation model",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 26
+      }
+    },
+    {
+      "id": "tech:vision_transformer",
+      "label": "Vision Transformer",
+      "type": "AI/foundation model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/remote sensing",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 7
+      }
+    },
+    {
+      "id": "tech:foundation_model",
+      "label": "Geoscience / geospatial foundation model",
+      "type": "AI/foundation model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/foundation model",
+      "section": "foundation_ai",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:llm",
+      "label": "Large Language Model",
+      "type": "AI/foundation model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/knowledge interface",
+      "section": "foundation_ai",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:rag",
+      "label": "Retrieval-Augmented Generation",
+      "type": "AI/system pattern",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/knowledge interface",
+      "section": "foundation_ai",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:knowledge_graph",
+      "label": "Knowledge Graph",
+      "type": "AI/knowledge representation",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/knowledge layer",
+      "section": "graph_ai",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 3
+      }
+    },
+    {
+      "id": "tech:gnn",
+      "label": "Graph Neural Network",
+      "type": "AI/graph model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/spatial relations",
+      "section": "graph_ai",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 4
+      }
+    },
+    {
+      "id": "tech:gcn",
+      "label": "Graph Convolutional Network",
+      "type": "AI/graph model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/spatial relations",
+      "section": "graph_ai",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 9
+      }
+    },
+    {
+      "id": "tech:gat",
+      "label": "Graph Attention Network",
+      "type": "AI/graph model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/spatial relations",
+      "section": "graph_ai",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 4
+      }
+    },
+    {
+      "id": "tech:unet",
+      "label": "U-Net",
+      "type": "AI/deep model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/segmentation",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 3
+      }
+    },
+    {
+      "id": "tech:resnet",
+      "label": "ResNet",
+      "type": "AI/deep model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/remote sensing",
+      "section": "deep_learning",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 4
+      }
+    },
+    {
+      "id": "tech:yolo",
+      "label": "YOLO / object detection",
+      "type": "AI/deep model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/object detection",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:som",
+      "label": "Self-Organizing Map",
+      "type": "AI/clustering",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/feature discovery",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 5
+      }
+    },
+    {
+      "id": "tech:kmeans",
+      "label": "k-means",
+      "type": "AI/clustering",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/feature discovery",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 10
+      }
+    },
+    {
+      "id": "tech:dbscan",
+      "label": "DBSCAN",
+      "type": "AI/clustering",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/feature discovery",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:isolation_forest",
+      "label": "Isolation Forest",
+      "type": "AI/anomaly detection",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/anomaly detection",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:one_class_svm",
+      "label": "One-Class SVM",
+      "type": "AI/anomaly detection",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/anomaly detection",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:lof",
+      "label": "Local Outlier Factor",
+      "type": "AI/anomaly detection",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/anomaly detection",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:pca",
+      "label": "Principal Component Analysis",
+      "type": "feature engineering",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/dimensionality reduction",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 26
+      }
+    },
+    {
+      "id": "tech:ica",
+      "label": "Independent Component Analysis",
+      "type": "feature engineering",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/dimensionality reduction",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 2
+      }
+    },
+    {
+      "id": "tech:tsne",
+      "label": "t-SNE",
+      "type": "feature engineering",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/dimensionality reduction",
+      "section": "feature_engineering",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 4
+      }
+    },
+    {
+      "id": "tech:umap",
+      "label": "UMAP",
+      "type": "feature engineering",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/dimensionality reduction",
+      "section": "feature_engineering",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:wavelet",
+      "label": "Wavelet transform",
+      "type": "feature engineering",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/spatial/spectral features",
+      "section": "feature_engineering",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 3
+      }
+    },
+    {
+      "id": "tech:fractal",
+      "label": "Fractal / multifractal analysis",
+      "type": "geostatistical feature",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/anomaly/background separation",
+      "section": "feature_engineering",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 8
+      }
+    },
+    {
+      "id": "tech:moran_i",
+      "label": "Moran's I / spatial autocorrelation",
+      "type": "geostatistical feature",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/spatial statistics",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:kriging",
+      "label": "Kriging / co-kriging",
+      "type": "geostatistics",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/interpolation",
+      "section": "feature_engineering",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 6
+      }
+    },
+    {
+      "id": "tech:weights_of_evidence",
+      "label": "Weights of Evidence",
+      "type": "evidence integration",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/MPM baseline",
+      "section": "feature_engineering",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 5
+      }
+    },
+    {
+      "id": "tech:fuzzy_logic",
+      "label": "Fuzzy logic",
+      "type": "evidence integration",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/MPM baseline",
+      "section": "feature_engineering",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 12
+      }
+    },
+    {
+      "id": "tech:ahp",
+      "label": "Analytic Hierarchy Process",
+      "type": "expert weighting",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/MPM baseline",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:evidential_belief",
+      "label": "Evidential belief function",
+      "type": "evidence integration",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/MPM baseline",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 2
+      }
+    },
+    {
+      "id": "tech:dempster_shafer",
+      "label": "Dempster-Shafer theory",
+      "type": "evidence integration",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/uncertainty",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:maxent",
+      "label": "Maximum Entropy",
+      "type": "statistical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/presence-only modeling",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 3
+      }
+    },
+    {
+      "id": "tech:logistic_weights",
+      "label": "Logistic / linear weights",
+      "type": "statistical model",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/baseline",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:ga",
+      "label": "Genetic Algorithm",
+      "type": "optimization",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/model tuning",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 7
+      }
+    },
+    {
+      "id": "tech:pso",
+      "label": "Particle Swarm Optimization",
+      "type": "optimization",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/model tuning",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 4
+      }
+    },
+    {
+      "id": "tech:aco",
+      "label": "Ant Colony Optimization",
+      "type": "optimization",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/model tuning",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:shap",
+      "label": "SHAP",
+      "type": "explainable AI",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/interpretability",
+      "section": "xai_risk",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 16
+      }
+    },
+    {
+      "id": "tech:lime",
+      "label": "LIME",
+      "type": "explainable AI",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/interpretability",
+      "section": "xai_risk",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:permutation_importance",
+      "label": "Permutation importance",
+      "type": "explainable AI",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/interpretability",
+      "section": "xai_risk",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 1
+      }
+    },
+    {
+      "id": "tech:partial_dependence",
+      "label": "Partial dependence / ICE",
+      "type": "explainable AI",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/interpretability",
+      "section": "xai_risk",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 2
+      }
+    },
+    {
+      "id": "tech:attention",
+      "label": "Attention mechanism",
+      "type": "explainable/deep model",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/interpretability",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 48
+      }
+    },
+    {
+      "id": "tech:bayesian_uncertainty",
+      "label": "Bayesian uncertainty quantification",
+      "type": "uncertainty",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/risk ranking",
+      "section": "xai_risk",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 8
+      }
+    },
+    {
+      "id": "tech:monte_carlo_dropout",
+      "label": "Monte Carlo dropout",
+      "type": "uncertainty",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/risk ranking",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:conformal_prediction",
+      "label": "Conformal prediction",
+      "type": "uncertainty",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/risk ranking",
+      "section": "xai_risk",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:data_fusion",
+      "label": "Multi-source data fusion",
+      "type": "pipeline",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/data integration",
+      "section": "feature_engineering",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 38
+      }
+    },
+    {
+      "id": "tech:gis_overlay",
+      "label": "GIS overlay modeling",
+      "type": "pipeline",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/data integration",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 26
+      }
+    },
+    {
+      "id": "tech:feature_selection",
+      "label": "Feature selection",
+      "type": "pipeline",
+      "layer": "feature",
+      "layerLabel": "特征/工程层",
+      "position": "技术层/feature engineering",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 10
+      }
+    },
+    {
+      "id": "tech:class_imbalance",
+      "label": "Class imbalance handling",
+      "type": "pipeline",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/training design",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 14
+      }
+    },
+    {
+      "id": "tech:negative_sampling",
+      "label": "Negative sampling / PU learning",
+      "type": "pipeline",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "技术层/training design",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "tech:spatial_cross_validation",
+      "label": "Spatial cross-validation",
+      "type": "evaluation",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/validation",
+      "section": "xai_risk",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 2
+      }
+    },
+    {
+      "id": "tech:roc_auc",
+      "label": "ROC-AUC / PR-AUC",
+      "type": "evaluation",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/metrics",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 43
+      }
+    },
+    {
+      "id": "tech:prospectivity_map",
+      "label": "Prospectivity / favorability map",
+      "type": "output",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/decision product",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 14
+      }
+    },
+    {
+      "id": "tech:target_ranking",
+      "label": "Exploration target ranking",
+      "type": "output",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/decision product",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 63
+      }
+    },
+    {
+      "id": "tech:drilling_recommendation",
+      "label": "Drilling recommendation",
+      "type": "output",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "技术层/decision product",
+      "section": "other",
+      "summary": "AI+探矿技术节点",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 28
+      }
+    },
+    {
+      "id": "task:mineral_prospectivity_mapping",
+      "label": "Mineral prospectivity mapping",
+      "type": "research task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 174
+      }
+    },
+    {
+      "id": "task:geochemical_anomaly_detection",
+      "label": "Geochemical anomaly detection",
+      "type": "research task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 44
+      }
+    },
+    {
+      "id": "task:remote_sensing_mineral_mapping",
+      "label": "Remote sensing mineral/alteration mapping",
+      "type": "research task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 133
+      }
+    },
+    {
+      "id": "task:hyperspectral_lithology_mapping",
+      "label": "Hyperspectral/lithology mapping",
+      "type": "research task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 120
+      }
+    },
+    {
+      "id": "task:geophysical_inversion_interpretation",
+      "label": "Geophysical inversion and interpretation",
+      "type": "research task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 95
+      }
+    },
+    {
+      "id": "task:drill_core_logging",
+      "label": "Drill core logging and assay prediction",
+      "type": "research task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 26
+      }
+    },
+    {
+      "id": "task:ore_deposit_classification",
+      "label": "Ore deposit classification",
+      "type": "research task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 55
+      }
+    },
+    {
+      "id": "task:knowledge_management",
+      "label": "Exploration knowledge management",
+      "type": "research task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 13
+      }
+    },
+    {
+      "id": "task:exploration_portfolio_ranking",
+      "label": "Portfolio and target ranking",
+      "type": "business task",
+      "layer": "task",
+      "layerLabel": "任务层",
+      "position": "应用层/研究任务",
+      "section": "task",
+      "summary": "探矿业务或科研任务",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 68
+      }
+    },
+    {
+      "id": "data:geology_maps",
+      "label": "Geological maps",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 63
+      }
+    },
+    {
+      "id": "data:geochemistry",
+      "label": "Geochemical assays/anomalies",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 168
+      }
+    },
+    {
+      "id": "data:geophysics",
+      "label": "Geophysical grids and inversions",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 95
+      }
+    },
+    {
+      "id": "data:remote_sensing",
+      "label": "Multispectral remote sensing",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 127
+      }
+    },
+    {
+      "id": "data:hyperspectral",
+      "label": "Hyperspectral imagery",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 80
+      }
+    },
+    {
+      "id": "data:drilling",
+      "label": "Drilling/core/assay data",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 103
+      }
+    },
+    {
+      "id": "data:topography",
+      "label": "DEM/topography",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 201
+      }
+    },
+    {
+      "id": "data:structure_faults",
+      "label": "Faults, folds, structures",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 109
+      }
+    },
+    {
+      "id": "data:known_deposits",
+      "label": "Known deposits/occurrences",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 26
+      }
+    },
+    {
+      "id": "data:text_reports",
+      "label": "Reports, papers, regulations",
+      "type": "data",
+      "layer": "data",
+      "layerLabel": "数据层",
+      "position": "数据层/证据源",
+      "section": "data",
+      "summary": "探矿 AI 输入数据或证据",
+      "source": "extracted ontology",
+      "url": "",
+      "metrics": {
+        "paper_mentions": 196
+      }
+    },
+    {
+      "id": "capability:data_moat",
+      "label": "专有数据护城河",
+      "type": "competitive capability",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "决策层/商业护城河",
+      "section": "xai_risk",
+      "summary": "历史数据、失败样本、钻孔和多源原始数据决定模型可迁移性。",
+      "source": "competitive synthesis",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "capability:spatial_validation",
+      "label": "空间外推验证",
+      "type": "competitive capability",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "决策层/可信度",
+      "section": "xai_risk",
+      "summary": "留区验证、空间交叉验证和跨构造域验证，用来避免随机验证高估模型。",
+      "source": "competitive synthesis",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "capability:explainable_evidence",
+      "label": "可解释证据链",
+      "type": "competitive capability",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "决策层/可信度",
+      "section": "xai_risk",
+      "summary": "把模型贡献度、地质假设、矿床成因和证据图连接起来。",
+      "source": "competitive synthesis",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "capability:closed_loop_drilling",
+      "label": "预测-采集-钻探闭环",
+      "type": "competitive capability",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "决策层/现场闭环",
+      "section": "xai_risk",
+      "summary": "从概率图走向采样、传感、钻探和反馈学习。",
+      "source": "competitive synthesis",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "capability:low_disturbance",
+      "label": "低扰动快速验证",
+      "type": "competitive capability",
+      "layer": "decision",
+      "layerLabel": "决策层",
+      "position": "决策层/许可与 ESG",
+      "section": "xai_risk",
+      "summary": "降低环境足迹、许可压力和社区阻力。",
+      "source": "competitive synthesis",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "capability:foundation_models",
+      "label": "地学基础模型",
+      "type": "competitive capability",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "AI 模型层/基础模型",
+      "section": "foundation_ai",
+      "summary": "跨区域、跨矿种和低样本迁移的长期技术底座。",
+      "source": "competitive synthesis",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "capability:kg_llm_workflow",
+      "label": "知识图谱 + LLM/RAG",
+      "type": "competitive capability",
+      "layer": "model",
+      "layerLabel": "AI 模型层",
+      "position": "AI 模型层/知识接口",
+      "section": "foundation_ai",
+      "summary": "把论文、报告、矿权、地质图和项目假设变成可检索证据。",
+      "source": "competitive synthesis",
+      "url": "",
+      "metrics": {}
+    },
+    {
+      "id": "category:",
+      "label": "钻孔、岩心与矿体表征",
+      "type": "paper category",
+      "layer": "category",
+      "layerLabel": "论文分类层",
+      "position": "论文分类层/主题簇",
+      "section": "category",
+      "summary": "5 条论文目录记录归入该类。",
+      "source": "paper catalogue",
+      "url": "",
+      "metrics": {
+        "paper_count": 5
+      }
+    },
+    {
+      "id": "category:ai_ml",
+      "label": "通用 AI/ML 地学应用",
+      "type": "paper category",
+      "layer": "category",
+      "layerLabel": "论文分类层",
+      "position": "论文分类层/主题簇",
+      "section": "category",
+      "summary": "158 条论文目录记录归入该类。",
+      "source": "paper catalogue",
+      "url": "",
+      "metrics": {
+        "paper_count": 158
+      }
+    },
+    {
+      "id": "paper:pdf001",
+      "label": "review remote sensing ml mineral exploration",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning。任务：Remote sensing mineral/alteration mapping。",
+      "source": "Downloaded OA PDF",
+      "url": "https://arxiv.org/pdf/2103.07678",
+      "pdf_path": "literature\\papers\\review_remote_sensing_ml_mineral_exploration.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf002",
+      "label": "future ai critical mineral exploration",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：未抽取。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://arxiv.org/pdf/2512.02879",
+      "pdf_path": "literature\\papers\\future_ai_critical_mineral_exploration.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf003",
+      "label": "geochemad benchmark geochemical anomaly",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "地球化学异常识别",
+      "summary": "地球化学异常识别。技术：未抽取。任务：Geochemical anomaly detection。",
+      "source": "Downloaded OA PDF",
+      "url": "https://arxiv.org/pdf/2603.13068",
+      "pdf_path": "literature\\papers\\geochemad_benchmark_geochemical_anomaly.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf004",
+      "label": "gfm4mpm geospatial foundation models",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：未抽取。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://arxiv.org/pdf/2406.12756",
+      "pdf_path": "literature\\papers\\gfm4mpm_geospatial_foundation_models.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf005",
+      "label": "cross domain foundation model geophysics",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "基础模型、知识图谱与文档智能",
+      "summary": "基础模型、知识图谱与文档智能。技术：Geoscience / geospatial foundation model。任务：Geophysical inversion and interpretation。",
+      "source": "Downloaded OA PDF",
+      "url": "https://arxiv.org/pdf/2408.12396",
+      "pdf_path": "literature\\papers\\cross_domain_foundation_model_geophysics.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf006",
+      "label": "generating mineral evidence maps from queries",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "基础模型、知识图谱与文档智能",
+      "summary": "基础模型、知识图谱与文档智能。技术：未抽取。任务：Exploration knowledge management。",
+      "source": "Downloaded OA PDF",
+      "url": "https://arxiv.org/pdf/2602.17784",
+      "pdf_path": "literature\\papers\\generating_mineral_evidence_maps_from_queries.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf012",
+      "label": "ensemble ml strategies mpm limited data",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning; Ensemble learning。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://www.nature.com/articles/s41598-026-40125-1.pdf",
+      "pdf_path": "literature\\papers\\ensemble_ml_strategies_mpm_limited_data.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf014",
+      "label": "feature fusion tsne geophysical features",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "地球物理解释与反演",
+      "summary": "地球物理解释与反演。技术：t-SNE。任务：Geophysical inversion and interpretation。",
+      "source": "Downloaded OA PDF",
+      "url": "https://www.nature.com/articles/s41598-025-01333-3.pdf",
+      "pdf_path": "literature\\papers\\feature_fusion_tsne_geophysical_features.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf015",
+      "label": "improved mpm graph neural networks",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "图学习与空间关系建模",
+      "summary": "图学习与空间关系建模。技术：Graph Neural Network。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://ora.ox.ac.uk/objects/uuid:cd710a18-9b40-4231-b193-4e6366dcc156/files/r1j92g933w",
+      "pdf_path": "literature\\papers\\improved_mpm_graph_neural_networks.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf016",
+      "label": "deep seam explainable semisupervised mpm",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Semi-supervised learning。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://gmd.copernicus.org/articles/19/2593/2026/gmd-19-2593-2026.pdf",
+      "pdf_path": "literature\\papers\\deep_seam_explainable_semisupervised_mpm.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf019",
+      "label": "geochemical anomaly irankuh hybrid ml",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "地球化学异常识别",
+      "summary": "地球化学异常识别。技术：Machine learning。任务：Geochemical anomaly detection。",
+      "source": "Downloaded OA PDF",
+      "url": "https://geopersia.ut.ac.ir/article_86488_f124e37ef5ae93552c3ee83eccd64335.pdf",
+      "pdf_path": "literature\\papers\\geochemical_anomaly_irankuh_hybrid_ml.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf022",
+      "label": "applied ml mpm southwest missouri thesis",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://bearworks.missouristate.edu/cgi/viewcontent.cgi?article=5196&context=theses",
+      "pdf_path": "literature\\papers\\applied_ml_mpm_southwest_missouri_thesis.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf025",
+      "label": "geoconvention ml mpm giyani greenstone",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://geoconvention.com/wp-content/uploads/abstracts/2026/122920-the-use-of-machine-learning-algorithms-f",
+      "pdf_path": "literature\\papers\\geoconvention_ml_mpm_giyani_greenstone.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf028",
+      "label": "knowledge guided ml komatiite zenodo",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning。任务：Ore deposit classification。",
+      "source": "Downloaded OA PDF",
+      "url": "https://zenodo.org/records/7687582/files/ID102.pdf?download=1",
+      "pdf_path": "literature\\papers\\knowledge_guided_ml_komatiite_zenodo.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf029",
+      "label": "towards sustainable deep exploration minotaur",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：未抽取。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://zenodo.org/records/20525330/files/Towards%20Sustainable%20Deep%20Exploration%20-%20Minotaur_published.pdf?download=1",
+      "pdf_path": "literature\\papers\\towards_sustainable_deep_exploration_minotaur.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf031",
+      "label": "systematic review ml applications mining",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://pdfs.semanticscholar.org/fd57/cfe3683947c0888a648bb1552eb2e46ec204.pdf",
+      "pdf_path": "literature\\papers\\systematic_review_ml_applications_mining.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:pdf033",
+      "label": "ai mineral identification review",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：未抽取。任务：未抽取。",
+      "source": "Downloaded OA PDF",
+      "url": "https://iserdar.com/index.php/pub/article/download/14/15/141",
+      "pdf_path": "literature\\papers\\ai_mineral_identification_review.pdf",
+      "metrics": {
+        "cited_by_count": ""
+      }
+    },
+    {
+      "id": "paper:oa0131",
+      "label": "SoilGrids250m: Global gridded soil information based on machine learning",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "遥感、高光谱与蚀变/岩性识别",
+      "summary": "遥感、高光谱与蚀变/岩性识别。技术：Machine learning; Ensemble learning; Random Forest; Gradient Boosting; XGBoost; Logistic Regression。任务：Remote sensing mineral/alteration mapping; Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1371/journal.pone.0169748",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "4807"
+      }
+    },
+    {
+      "id": "paper:oa0385",
+      "label": "Machine Learning in Agriculture: A Review",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning。任务：Portfolio and target ranking。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.3390/s18082674",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "3229"
+      }
+    },
+    {
+      "id": "paper:oa0386",
+      "label": "A review of statistically-based landslide susceptibility models",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning; Logistic Regression; GIS overlay modeling。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.earscirev.2018.03.001",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "2332"
+      }
+    },
+    {
+      "id": "paper:oa0322",
+      "label": "Big Data: New Tricks for Econometrics",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning; Deep learning。任务：Portfolio and target ranking。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1257/jep.28.2.3",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "1575"
+      }
+    },
+    {
+      "id": "paper:oa0113",
+      "label": "Machine learning predictive models for mineral prospectivity: An evaluation of neural network...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "矿产远景区预测与靶区优选",
+      "summary": "矿产远景区预测与靶区优选。技术：Machine learning; Random Forest。任务：Mineral prospectivity mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.oregeorev.2015.01.001",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "1562"
+      }
+    },
+    {
+      "id": "paper:oa0323",
+      "label": "Convergence of Edge Computing and Deep Learning: A Comprehensive Survey",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Deep learning; Attention mechanism。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/comst.2020.2970550",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "1482"
+      }
+    },
+    {
+      "id": "paper:oa0593",
+      "label": "Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing and Applications for Ag...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：未抽取。任务：Remote sensing mineral/alteration mapping; Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.3390/rs9111110",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "1301"
+      }
+    },
+    {
+      "id": "paper:oa0120",
+      "label": "Machine learning in geosciences and remote sensing",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "遥感、高光谱与蚀变/岩性识别",
+      "summary": "遥感、高光谱与蚀变/岩性识别。技术：Machine learning; Self-Organizing Map; Attention mechanism。任务：Remote sensing mineral/alteration mapping; Portfolio and target ranking。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.gsf.2015.07.003",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "1120"
+      }
+    },
+    {
+      "id": "paper:oa0324",
+      "label": "Recent advances and applications of deep learning methods in materials science",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Deep learning; Unsupervised learning; Bayesian uncertainty quantification。任务：Exploration knowledge management。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1038/s41524-022-00734-6",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "1117"
+      }
+    },
+    {
+      "id": "paper:oa0387",
+      "label": "A Review of Deep Learning in Medical Imaging: Imaging Traits, Technology Trends, Case Studies...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Deep learning; Bayesian uncertainty quantification。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/jproc.2021.3054390",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "1069"
+      }
+    },
+    {
+      "id": "paper:oa0214",
+      "label": "Selecting critical features for data classification based on machine learning methods",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning; Random Forest; Support Vector Machine; k-Nearest Neighbors; Feature selection。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1186/s40537-020-00327-4",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "993"
+      }
+    },
+    {
+      "id": "paper:oa0325",
+      "label": "Artificial intelligence and smart vision for building and construction 4.0: Machine and deep ...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning; Deep learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.autcon.2022.104440",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "965"
+      }
+    },
+    {
+      "id": "paper:oa0178",
+      "label": "Using Machine Learning to Identify Diseases and Perform Sorting in Apple Fruit",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "遥感、高光谱与蚀变/岩性识别",
+      "summary": "遥感、高光谱与蚀变/岩性识别。技术：Machine learning; Deep learning; Convolutional Neural Network。任务：Remote sensing mineral/alteration mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.38124/ijisrt/ijisrt24jul195",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "963"
+      }
+    },
+    {
+      "id": "paper:oa0543",
+      "label": "Tackling Climate Change with Machine Learning",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "遥感、高光谱与蚀变/岩性识别",
+      "summary": "遥感、高光谱与蚀变/岩性识别。技术：Machine learning。任务：Remote sensing mineral/alteration mapping。",
+      "source": "OpenAlex",
+      "url": "https://opus4.kobv.de/opus4-hsog/frontdoor/index/index/docId/4117",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "941"
+      }
+    },
+    {
+      "id": "paper:oa0594",
+      "label": "Global stocks and capacity of mineral-associated soil organic carbon",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：未抽取。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1038/s41467-022-31540-9",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "903"
+      }
+    },
+    {
+      "id": "paper:oa0215",
+      "label": "Prediction of undrained shear strength using extreme gradient boosting and random forest base...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning; Ensemble learning; Random Forest; Gradient Boosting; XGBoost。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.gsf.2020.03.007",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "866"
+      }
+    },
+    {
+      "id": "paper:oa0326",
+      "label": "Machine Learning in Agriculture: A Comprehensive Updated Review",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning; Attention mechanism。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.3390/s21113758",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "856"
+      }
+    },
+    {
+      "id": "paper:oa0355",
+      "label": "Innovations and challenges in adsorption-based wastewater remediation: A comprehensive review",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.heliyon.2024.e29573",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "697"
+      }
+    },
+    {
+      "id": "paper:oa0327",
+      "label": "Predictive modelling for solar thermal energy systems: A comparison of support vector regress...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning; Ensemble learning; Random Forest。任务：Portfolio and target ranking。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.jclepro.2018.08.207",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "636"
+      }
+    },
+    {
+      "id": "paper:oa0476",
+      "label": "Influence of Data Splitting on Performance of Machine Learning Models in Prediction of Shear ...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning; Gradient Boosting; Multilayer Perceptron / ANN。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1155/2021/4832864",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "624"
+      }
+    },
+    {
+      "id": "paper:oa0356",
+      "label": "Mapping high resolution National Soil Information Grids of China",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning; Ensemble learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.scib.2021.10.013",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "616"
+      }
+    },
+    {
+      "id": "paper:oa0595",
+      "label": "Multisource and Multitemporal Data Fusion in Remote Sensing: A Comprehensive Review of the St...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Multi-source data fusion。任务：Remote sensing mineral/alteration mapping; Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/mgrs.2018.2890023",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "605"
+      }
+    },
+    {
+      "id": "paper:oa0492",
+      "label": "Machine learning can predict survival of patients with heart failure from serum creatinine an...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1186/s12911-020-1023-5",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "603"
+      }
+    },
+    {
+      "id": "paper:oa0596",
+      "label": "Digital Economy as a Factor in the Technological Development of the Mineral Sector",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Attention mechanism。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1007/s11053-019-09568-4",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "556"
+      }
+    },
+    {
+      "id": "paper:oa0477",
+      "label": "Application of machine learning and artificial intelligence in oil and gas industry",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.ptlrs.2021.05.009",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "539"
+      }
+    },
+    {
+      "id": "paper:oa0493",
+      "label": "Attention-Based Adaptive Spectral–Spatial Kernel ResNet for Hyperspectral Image Classification",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "遥感、高光谱与蚀变/岩性识别",
+      "summary": "遥感、高光谱与蚀变/岩性识别。技术：Random Forest; ResNet; Attention mechanism。任务：Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/tgrs.2020.3043267",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "515"
+      }
+    },
+    {
+      "id": "paper:oa0408",
+      "label": "Support vector machine: A tool for mapping mineral prospectivity",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "矿产远景区预测与靶区优选",
+      "summary": "矿产远景区预测与靶区优选。技术：Support Vector Machine。任务：Mineral prospectivity mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.cageo.2010.09.014",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "512"
+      }
+    },
+    {
+      "id": "paper:oa0216",
+      "label": "Deep convolutional neural networks for Raman spectrum recognition: a unified solution",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning; Support Vector Machine; Convolutional Neural Network; Principal Component Analysis。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1039/c7an01371j",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "503"
+      }
+    },
+    {
+      "id": "paper:oa0179",
+      "label": "FPGA-Based Accelerators of Deep Learning Networks for Learning and Classification: A Review",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Deep learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/access.2018.2890150",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "499"
+      }
+    },
+    {
+      "id": "paper:oa0328",
+      "label": "A novel approach to explain the black-box nature of machine learning in compressive strength ...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning; Supervised learning; Decision Tree; Gradient Boosting; XGBoost; SHAP。任务：Portfolio and target ranking。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.cscm.2022.e01059",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "490"
+      }
+    },
+    {
+      "id": "paper:oa0544",
+      "label": "Machine learning at the energy and intensity frontiers of particle physics",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1038/s41586-018-0361-2",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "486"
+      }
+    },
+    {
+      "id": "paper:oa0409",
+      "label": "Basic Tenets of Classification Algorithms K-Nearest-Neighbor, Support Vector Machine, Random ...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Random Forest; Support Vector Machine; k-Nearest Neighbors。任务：Remote sensing mineral/alteration mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.4236/jdaip.2020.84020",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "460"
+      }
+    },
+    {
+      "id": "paper:oa0306",
+      "label": "A Signal Processing Perspective on Hyperspectral Unmixing: Insights from Remote Sensing",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "遥感、高光谱与蚀变/岩性识别",
+      "summary": "遥感、高光谱与蚀变/岩性识别。技术：Machine learning; Unsupervised learning。任务：Remote sensing mineral/alteration mapping; Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/msp.2013.2279731",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "453"
+      }
+    },
+    {
+      "id": "paper:oa0357",
+      "label": "Spatial-Spectral Transformer for Hyperspectral Image Classification",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "遥感、高光谱与蚀变/岩性识别",
+      "summary": "遥感、高光谱与蚀变/岩性识别。技术：Transfer learning; Multilayer Perceptron / ANN; Convolutional Neural Network; Transformer; Attention mechanism。任务：Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.3390/rs13030498",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "451"
+      }
+    },
+    {
+      "id": "paper:oa0580",
+      "label": "A critical review of mineral–microbe interaction and co-evolution: mechanisms and applications",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：未抽取。任务：Ore deposit classification。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1093/nsr/nwac128",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "450"
+      }
+    },
+    {
+      "id": "paper:oa0170",
+      "label": "Landslide susceptibility mapping using machine learning algorithms and comparison of their pe...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "遥感、高光谱与蚀变/岩性识别",
+      "summary": "遥感、高光谱与蚀变/岩性识别。技术：Machine learning; Random Forest; Support Vector Machine; Naive Bayes; Multilayer Perceptron / ANN; GIS overlay modeling; ROC-AUC / PR-AUC。任务：Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.gsf.2020.05.010",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "441"
+      }
+    },
+    {
+      "id": "paper:oa0529",
+      "label": "Assessing the predictive capability of ensemble tree methods for landslide susceptibility map...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Ensemble learning; Random Forest; Gradient Boosting; XGBoost。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1007/s42452-020-3060-1",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "439"
+      }
+    },
+    {
+      "id": "paper:oa0358",
+      "label": "Hyperspectral Image Classification—Traditional to Deep Models: A Survey for Future Prospects",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Deep learning。任务：Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/jstars.2021.3133021",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "420"
+      }
+    },
+    {
+      "id": "paper:oa0545",
+      "label": "Emerging materials intelligence ecosystems propelled by machine learning",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Machine learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1038/s41578-020-00255-y",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "413"
+      }
+    },
+    {
+      "id": "paper:oa0447",
+      "label": "Deep learning and its application in geochemical mapping",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "通用 AI/ML 地学应用",
+      "summary": "通用 AI/ML 地学应用。技术：Deep learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.earscirev.2019.02.023",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "411"
+      }
+    },
+    {
+      "id": "paper:oa0031",
+      "label": "A review of machine learning in processing remote sensing data for mineral exploration",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning; Deep learning。任务：Mineral prospectivity mapping; Remote sensing mineral/alteration mapping; Hyperspectral/lithology mapping; Ore deposit classification; Portfolio and target ranking。",
+      "source": "OpenAlex",
+      "url": "https://hdl.handle.net/1885/733813539",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "407"
+      }
+    },
+    {
+      "id": "paper:oa0597",
+      "label": "Remote sensing for wetland classification: a comprehensive review",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：未抽取。任务：Remote sensing mineral/alteration mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1080/15481603.2017.1419602",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "404"
+      }
+    },
+    {
+      "id": "paper:oa0201",
+      "label": "Hyperspectral remote sensing in lithological mapping, mineral exploration, and environmental ...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：未抽取。任务：Remote sensing mineral/alteration mapping; Hyperspectral/lithology mapping。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1117/1.jrs.15.031501",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "403"
+      }
+    },
+    {
+      "id": "paper:oa0265",
+      "label": "Transformers in Remote Sensing: A Survey",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Deep learning; Transformer; Attention mechanism。任务：Remote sensing mineral/alteration mapping; Hyperspectral/lithology mapping; Exploration knowledge management。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.3390/rs15071860",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "402"
+      }
+    },
+    {
+      "id": "paper:oa0494",
+      "label": "Big Data Creates New Opportunities for Materials Research: A Review on Methods and Applicatio...",
+      "type": "representative paper",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/代表论文",
+      "section": "综述与路线图",
+      "summary": "综述与路线图。技术：Machine learning。任务：未抽取。",
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1016/j.eng.2019.02.011",
+      "pdf_path": "",
+      "metrics": {
+        "cited_by_count": "385"
+      }
+    },
+    {
+      "id": "paper:local_pdf_001",
+      "label": "2019 Boosting for Mineral Prospectivity Modeling A New GIS Toolbox",
+      "type": "local open PDF",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/本地开放 PDF",
+      "section": "矿产远景区预测与靶区优选",
+      "summary": "本地已下载开放 PDF。文件：literature/papers/2019_Boosting_for_Mineral_Prospectivity_Modeling_A_New_GIS_Toolbox.pdf",
+      "source": "local PDF folder",
+      "url": "",
+      "pdf_path": "literature/papers/2019_Boosting_for_Mineral_Prospectivity_Modeling_A_New_GIS_Toolbox.pdf",
+      "metrics": {}
+    },
+    {
+      "id": "paper:local_pdf_002",
+      "label": "2024 Geologically-constrained GANomaly network for mineral prospectivity mapping through frequen...",
+      "type": "local open PDF",
+      "layer": "paper",
+      "layerLabel": "论文证据层",
+      "position": "论文证据层/本地开放 PDF",
+      "section": "矿产远景区预测与靶区优选",
+      "summary": "本地已下载开放 PDF。文件：literature/papers/2024_Geologically-constrained_GANomaly_network_for_mineral_prospectivity_mapping_through_frequency_domain_training_data.pdf",
+      "source": "local PDF folder",
+      "url": "",
+      "pdf_path": "literature/papers/2024_Geologically-constrained_GANomaly_network_for_mineral_prospectivity_mapping_through_frequency_domain_training_data.pdf",
+      "metrics": {}
+    },
+    {
+      "id": "company:kobold_metals",
+      "label": "KoBold Metals",
+      "type": "company",
+      "layer": "company",
+      "layerLabel": "公司/竞争层",
+      "position": "公司层/全栈资产生成 + AI+HI",
+      "section": "company",
+      "summary": "以 AI+human intelligence 组织关键矿产勘探和矿业资产开发，强在资本、科学团队和项目权益整合。",
+      "strengths": [
+        "全栈资产生成",
+        "关键矿产品牌",
+        "专有数据与科学团队",
+        "从预测到开发"
+      ],
+      "risks": [
+        "第三方工具化交付不一定最轻",
+        "客户若只买 SaaS 可能不匹配"
+      ],
+      "source": "public company research",
+      "url": "https://koboldmetals.com/about-us/",
+      "metrics": {}
+    },
+    {
+      "id": "company:earth_ai",
+      "label": "Earth AI",
+      "type": "company",
+      "layer": "company",
+      "layerLabel": "公司/竞争层",
+      "position": "公司层/AI 找矿 + 低扰动钻探闭环",
+      "section": "company",
+      "summary": "把预测模型与自有钻探能力连接，卖点是更快从靶区假设走到现场验证。",
+      "strengths": [
+        "预测-钻探闭环",
+        "低扰动验证",
+        "速度快",
+        "适合关键矿产绿地项目"
+      ],
+      "risks": [
+        "跨区域迁移能力需要持续证明",
+        "更偏项目型交付"
+      ],
+      "source": "public company research",
+      "url": "https://earth-ai.com/",
+      "metrics": {}
+    },
+    {
+      "id": "company:verai",
+      "label": "VerAI Discoveries",
+      "type": "company",
+      "layer": "company",
+      "layerLabel": "公司/竞争层",
+      "position": "公司层/AI-native mineral asset generator",
+      "section": "company",
+      "summary": "面向隐伏矿和覆盖区生成资产组合，适合需要项目管线的矿企和投资方。",
+      "strengths": [
+        "隐伏矿机会",
+        "资产组合",
+        "伙伴开发",
+        "覆盖区数据解释"
+      ],
+      "risks": [
+        "权益/资产模式不一定适合纯软件客户",
+        "需证明不同矿种泛化"
+      ],
+      "source": "public company research",
+      "url": "https://ver-ai.com/",
+      "metrics": {}
+    },
+    {
+      "id": "company:fleet_space",
+      "label": "Fleet Space ExoSphere",
+      "type": "company",
+      "layer": "company",
+      "layerLabel": "公司/竞争层",
+      "position": "公司层/实时地球物理传感 + AI",
+      "section": "company",
+      "summary": "以 ExoSphere 做被动地震/地球物理快速采集和 AI 建模，强在地下成像和现场部署。",
+      "strengths": [
+        "ANT/HVSR/MT 等快速外业",
+        "传感器平台",
+        "实时模型",
+        "靶区精细化"
+      ],
+      "risks": [
+        "不是泛化 MPM 平台",
+        "价值集中在地球物理适用场景"
+      ],
+      "source": "public company research",
+      "url": "https://www.fleetspace.com/exosphere",
+      "metrics": {}
+    },
+    {
+      "id": "company:geologic_ai",
+      "label": "GeologicAI",
+      "type": "company",
+      "layer": "company",
+      "layerLabel": "公司/竞争层",
+      "position": "公司层/岩心扫描 + 数字岩心 AI",
+      "section": "company",
+      "summary": "多传感器岩心扫描和 AI-assisted core logging，适合已钻项目、资源量建模和矿山运营。",
+      "strengths": [
+        "数字岩心",
+        "多传感器",
+        "LIBS/XRF/高光谱",
+        "钻后数据闭环"
+      ],
+      "risks": [
+        "早期绿地预测不是核心",
+        "依赖客户已有岩心/钻孔数据"
+      ],
+      "source": "public company research",
+      "url": "https://www.geologicai.com/",
+      "metrics": {}
+    },
+    {
+      "id": "company:orefox",
+      "label": "OreFox",
+      "type": "company",
+      "layer": "company",
+      "layerLabel": "公司/竞争层",
+      "position": "公司层/AI 探矿服务",
+      "section": "company",
+      "summary": "以机器学习服务方式帮助客户筛选金铜等项目靶区，交付相对灵活。",
+      "strengths": [
+        "服务灵活",
+        "适合中小勘探公司",
+        "金铜靶区分析",
+        "成本较轻"
+      ],
+      "risks": [
+        "资本和端到端闭环弱于头部全栈玩家",
+        "品牌壁垒较弱"
+      ],
+      "source": "public company research",
+      "url": "https://orefox.com/",
+      "metrics": {}
+    },
+    {
+      "id": "company:minerva",
+      "label": "Minerva Intelligence",
+      "type": "company",
+      "layer": "company",
+      "layerLabel": "公司/竞争层",
+      "position": "公司层/认知 AI + 语义网络",
+      "section": "company",
+      "summary": "强调认知 AI、语义网络、逻辑推理和不确定性，适合历史报告和复杂技术数据结构化。",
+      "strengths": [
+        "知识工程",
+        "语义网络",
+        "可解释推理",
+        "不确定性表达"
+      ],
+      "risks": [
+        "不直接替代现场采集或钻探",
+        "靶区生成需结合数据闭环"
+      ],
+      "source": "public company research",
+      "url": "https://minervaintelligence.com/",
+      "metrics": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "data:geology_maps",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:geochemistry",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:geophysics",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:remote_sensing",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:hyperspectral",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:drilling",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:topography",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:structure_faults",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:known_deposits",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:text_reports",
+      "target": "tech:data_fusion",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:drill_core_logging",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:ore_deposit_classification",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:knowledge_management",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:data_fusion",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "supports",
+      "evidence": "多源数据融合是跨任务共性底座",
+      "confidence": "medium"
+    },
+    {
+      "source": "tech:random_forest",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:xgboost",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:svm",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:gradient_boosting",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:mlp",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:cnn",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:gnn",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:gat",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:foundation_model",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:isolation_forest",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:one_class_svm",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:som",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:kmeans",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:autoencoder",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:fractal",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:cnn",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:gnn",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:cnn",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:cnn",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:unet",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:unet",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:resnet",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:resnet",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:vision_transformer",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:vision_transformer",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:transformer",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:transformer",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:svm",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:svm",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:random_forest",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:random_forest",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:cnn",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:autoencoder",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:gan",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:transformer",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:gaussian_process",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:bayesian_uncertainty",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:gnn",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:cnn",
+      "target": "task:drill_core_logging",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:resnet",
+      "target": "task:drill_core_logging",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:unet",
+      "target": "task:drill_core_logging",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:random_forest",
+      "target": "task:drill_core_logging",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:xgboost",
+      "target": "task:drill_core_logging",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:knowledge_graph",
+      "target": "task:knowledge_management",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:llm",
+      "target": "task:knowledge_management",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:rag",
+      "target": "task:knowledge_management",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:foundation_model",
+      "target": "task:knowledge_management",
+      "relation": "applied_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:shap",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "reduces_risk_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:lime",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "reduces_risk_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:permutation_importance",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "reduces_risk_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:partial_dependence",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "reduces_risk_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:bayesian_uncertainty",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "reduces_risk_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:spatial_cross_validation",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "reduces_risk_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:geology_maps",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:geochemistry",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:geophysics",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:remote_sensing",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:structure_faults",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:known_deposits",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:geochemistry",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:geophysics",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:remote_sensing",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:hyperspectral",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "data:drilling",
+      "target": "task:drill_core_logging",
+      "relation": "input_to",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "task:mineral_prospectivity_mapping",
+      "target": "tech:target_ranking",
+      "relation": "produces_evidence_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "task:geochemical_anomaly_detection",
+      "target": "tech:target_ranking",
+      "relation": "produces_evidence_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "task:remote_sensing_mineral_mapping",
+      "target": "tech:target_ranking",
+      "relation": "produces_evidence_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "task:geophysical_inversion_interpretation",
+      "target": "tech:target_ranking",
+      "relation": "produces_evidence_for",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:target_ranking",
+      "target": "tech:drilling_recommendation",
+      "relation": "prioritizes",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "tech:prospectivity_map",
+      "target": "tech:target_ranking",
+      "relation": "feeds",
+      "evidence": "",
+      "confidence": "high"
+    },
+    {
+      "source": "paper:pdf001",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf001",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf001",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf001",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf002",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf003",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf003",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf003",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf004",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf005",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf005",
+      "target": "tech:foundation_model",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf005",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf005",
+      "target": "data:geophysics",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf006",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf006",
+      "target": "task:knowledge_management",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf006",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf012",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf012",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf012",
+      "target": "tech:ensemble_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf014",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf014",
+      "target": "tech:tsne",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf014",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf014",
+      "target": "data:geophysics",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf015",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf015",
+      "target": "tech:gnn",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf016",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf016",
+      "target": "tech:semi_supervised_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf019",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf019",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf019",
+      "target": "task:geochemical_anomaly_detection",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf019",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf022",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf022",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf025",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf025",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf028",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf028",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf028",
+      "target": "task:ore_deposit_classification",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf028",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf029",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf031",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf031",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:pdf033",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "tech:ensemble_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "tech:gradient_boosting",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "tech:xgboost",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "tech:logistic_regression",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "data:geology_maps",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "data:structure_faults",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0131",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0385",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0385",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0385",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0385",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0385",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0385",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0386",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0386",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0386",
+      "target": "tech:logistic_regression",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0386",
+      "target": "tech:gis_overlay",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0386",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0386",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0322",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0322",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0322",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0322",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0113",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0113",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0113",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0113",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0323",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0323",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0323",
+      "target": "tech:attention",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0323",
+      "target": "data:drilling",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0323",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0593",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0593",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0593",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0593",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0593",
+      "target": "data:hyperspectral",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0593",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0120",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0120",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0120",
+      "target": "tech:som",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0120",
+      "target": "tech:attention",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0120",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0120",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0120",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0120",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0324",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0324",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0324",
+      "target": "tech:unsupervised_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0324",
+      "target": "tech:bayesian_uncertainty",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0324",
+      "target": "task:knowledge_management",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0324",
+      "target": "data:structure_faults",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0387",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0387",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0387",
+      "target": "tech:bayesian_uncertainty",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0387",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0214",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0214",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0214",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0214",
+      "target": "tech:svm",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0214",
+      "target": "tech:knn",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0214",
+      "target": "tech:feature_selection",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0214",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0214",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0325",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0325",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0325",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0325",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0178",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0178",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0178",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0178",
+      "target": "tech:cnn",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0178",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0178",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0178",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0543",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0543",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0543",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0543",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0594",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0594",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0215",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0215",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0215",
+      "target": "tech:ensemble_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0215",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0215",
+      "target": "tech:gradient_boosting",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0215",
+      "target": "tech:xgboost",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0215",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0215",
+      "target": "data:structure_faults",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0326",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0326",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0326",
+      "target": "tech:attention",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0326",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0326",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0355",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0355",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0355",
+      "target": "data:structure_faults",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0327",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0327",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0327",
+      "target": "tech:ensemble_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0327",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0327",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0327",
+      "target": "data:structure_faults",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0327",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0476",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0476",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0476",
+      "target": "tech:gradient_boosting",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0476",
+      "target": "tech:mlp",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0476",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0356",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0356",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0356",
+      "target": "tech:ensemble_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0356",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0595",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0595",
+      "target": "tech:data_fusion",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0595",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0595",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0595",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0595",
+      "target": "data:hyperspectral",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0492",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0492",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0492",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0596",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0596",
+      "target": "tech:attention",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0596",
+      "target": "data:structure_faults",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0477",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0477",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0477",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0493",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0493",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0493",
+      "target": "tech:resnet",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0493",
+      "target": "tech:attention",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0493",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0493",
+      "target": "data:hyperspectral",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0408",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0408",
+      "target": "tech:svm",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0408",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0216",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0216",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0216",
+      "target": "tech:svm",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0216",
+      "target": "tech:cnn",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0216",
+      "target": "tech:pca",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0216",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0179",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0179",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0179",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0179",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0328",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0328",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0328",
+      "target": "tech:supervised_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0328",
+      "target": "tech:decision_tree",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0328",
+      "target": "tech:gradient_boosting",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0328",
+      "target": "tech:xgboost",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0328",
+      "target": "tech:shap",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0328",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0544",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0544",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0409",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0409",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0409",
+      "target": "tech:svm",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0409",
+      "target": "tech:knn",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0409",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0409",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0409",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0306",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0306",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0306",
+      "target": "tech:unsupervised_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0306",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0306",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0306",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0306",
+      "target": "data:hyperspectral",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0357",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0357",
+      "target": "tech:transfer_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0357",
+      "target": "tech:mlp",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0357",
+      "target": "tech:cnn",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0357",
+      "target": "tech:transformer",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0357",
+      "target": "tech:attention",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0357",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0357",
+      "target": "data:hyperspectral",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0580",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0580",
+      "target": "task:ore_deposit_classification",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0580",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "tech:svm",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "tech:naive_bayes",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "tech:mlp",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "tech:gis_overlay",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "data:geology_maps",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0170",
+      "target": "data:structure_faults",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0529",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0529",
+      "target": "tech:ensemble_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0529",
+      "target": "tech:random_forest",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0529",
+      "target": "tech:gradient_boosting",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0529",
+      "target": "tech:xgboost",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0358",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0358",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0358",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0358",
+      "target": "data:hyperspectral",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0545",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0545",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0447",
+      "target": "category:ai_ml",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0447",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0447",
+      "target": "data:geochemistry",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "task:ore_deposit_classification",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "data:geology_maps",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "data:structure_faults",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0031",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0597",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0597",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0597",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0597",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0201",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0201",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0201",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0201",
+      "target": "data:geology_maps",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0201",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0201",
+      "target": "data:hyperspectral",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0201",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "tech:deep_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "tech:transformer",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "tech:attention",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "task:remote_sensing_mineral_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "task:hyperspectral_lithology_mapping",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "task:knowledge_management",
+      "relation": "studies_task",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "data:remote_sensing",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "data:hyperspectral",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0265",
+      "target": "data:text_reports",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0494",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "论文分类",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0494",
+      "target": "tech:machine_learning",
+      "relation": "mentions_technology",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:oa0494",
+      "target": "data:topography",
+      "relation": "uses_data",
+      "evidence": "题名/摘要关键词抽取",
+      "confidence": "medium"
+    },
+    {
+      "source": "paper:local_pdf_001",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "本地 PDF 文件名归类",
+      "confidence": "low"
+    },
+    {
+      "source": "paper:local_pdf_002",
+      "target": "category:",
+      "relation": "classified_as",
+      "evidence": "本地 PDF 文件名归类",
+      "confidence": "low"
+    },
+    {
+      "source": "company:kobold_metals",
+      "target": "capability:data_moat",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:kobold_metals",
+      "target": "capability:explainable_evidence",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:kobold_metals",
+      "target": "capability:foundation_models",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:kobold_metals",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:earth_ai",
+      "target": "capability:closed_loop_drilling",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:earth_ai",
+      "target": "capability:low_disturbance",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:earth_ai",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:earth_ai",
+      "target": "tech:drilling_recommendation",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:verai",
+      "target": "capability:data_moat",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:verai",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:verai",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:fleet_space",
+      "target": "capability:closed_loop_drilling",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:fleet_space",
+      "target": "capability:low_disturbance",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:fleet_space",
+      "target": "task:geophysical_inversion_interpretation",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:fleet_space",
+      "target": "data:geophysics",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:geologic_ai",
+      "target": "task:drill_core_logging",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:geologic_ai",
+      "target": "data:drilling",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:geologic_ai",
+      "target": "capability:closed_loop_drilling",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:orefox",
+      "target": "task:mineral_prospectivity_mapping",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:orefox",
+      "target": "task:exploration_portfolio_ranking",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:orefox",
+      "target": "tech:machine_learning",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:minerva",
+      "target": "capability:kg_llm_workflow",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:minerva",
+      "target": "tech:knowledge_graph",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    },
+    {
+      "source": "company:minerva",
+      "target": "tech:bayesian_uncertainty",
+      "relation": "competes_on",
+      "evidence": "公开公司定位与产品能力归纳",
+      "confidence": "medium"
+    }
+  ],
+  "stats": {
+    "nodes": 184,
+    "edges": 409,
+    "papers_in_catalog": 639,
+    "downloaded_pdfs": 19,
+    "categories": {
+      "综述与路线图": 169,
+      "地球物理解释与反演": 62,
+      "遥感、高光谱与蚀变/岩性识别": 95,
+      "地球化学异常识别": 35,
+      "矿产远景区预测与靶区优选": 104,
+      "通用 AI/ML 地学应用": 158,
+      "基础模型、知识图谱与文档智能": 7,
+      "图学习与空间关系建模": 4,
+      "钻孔、岩心与矿体表征": 5
+    },
+    "top_technologies": {
+      "Machine learning": 341,
+      "Deep learning": 147,
+      "Random Forest": 124,
+      "Support Vector Machine": 91,
+      "Convolutional Neural Network": 74,
+      "Exploration target ranking": 63,
+      "Supervised learning": 48,
+      "Attention mechanism": 48,
+      "Ensemble learning": 45,
+      "Multilayer Perceptron / ANN": 45,
+      "ROC-AUC / PR-AUC": 43,
+      "Gradient Boosting": 41,
+      "Multi-source data fusion": 38,
+      "XGBoost": 36,
+      "Drilling recommendation": 28,
+      "Logistic Regression": 27,
+      "Principal Component Analysis": 26,
+      "Transformer": 26,
+      "GIS overlay modeling": 26,
+      "Unsupervised learning": 26
+    },
+    "top_tasks": {
+      "Mineral prospectivity mapping": 174,
+      "Remote sensing mineral/alteration mapping": 133,
+      "Hyperspectral/lithology mapping": 120,
+      "Geophysical inversion and interpretation": 95,
+      "Portfolio and target ranking": 68,
+      "Ore deposit classification": 55,
+      "Geochemical anomaly detection": 44,
+      "Drill core logging and assay prediction": 26,
+      "Exploration knowledge management": 13
+    }
+  }
+}
